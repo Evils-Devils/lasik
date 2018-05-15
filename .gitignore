@@ -11,6 +11,7 @@
 *~
 _autosave-*
 *.tmp
+_saved_*
 
 # Netlist files (exported from Eeschema)
 *.net
