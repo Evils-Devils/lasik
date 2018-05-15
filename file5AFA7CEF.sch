@@ -147,9 +147,9 @@ Wire Wire Line
 Wire Wire Line
 	5650 1950 5550 1950
 Wire Wire Line
-	5550 2500 5550 1950
+	5550 1950 5550 2500
 Wire Wire Line
-	2150 2500 5550 2500
+	5550 2500 2150 2500
 Wire Wire Line
 	2150 2500 2150 1950
 Wire Wire Line
