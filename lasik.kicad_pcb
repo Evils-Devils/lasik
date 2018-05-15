@@ -2,8 +2,13 @@
 
   (general
     (links 105)
+<<<<<<< Updated upstream
     (no_connects 70)
     (area 0 0 0 0)
+=======
+    (no_connects 19)
+    (area 174.241032 80.595 278.158334 125.940715)
+>>>>>>> Stashed changes
     (thickness 1.6)
     (drawings 0)
     (tracks 278)
@@ -38,16 +43,16 @@
 
   (setup
     (last_trace_width 0.25)
-    (trace_clearance 0.2)
+    (trace_clearance 0.15)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.15)
     (segment_width 0.2)
     (edge_width 0.15)
     (via_size 0.6)
     (via_drill 0.4)
-    (via_min_size 0.4)
-    (via_min_drill 0.3)
+    (via_min_size 0.6)
+    (via_min_drill 0.35)
     (uvia_size 0.3)
     (uvia_drill 0.1)
     (uvias_allowed no)
@@ -130,7 +135,7 @@
   (net 37 "Net-(R1102-Pad2)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
+    (clearance 0.15)
     (trace_width 0.25)
     (via_dia 0.6)
     (via_drill 0.4)
