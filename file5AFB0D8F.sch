@@ -1,0 +1,262 @@
+EESchema Schematic File Version 2
+LIBS:lasik-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:lasik-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFB0FA2
+P 2500 2500
+F 0 "Q?" H 2700 2575 50  0000 L CNN
+F 1 "TBD" H 2700 2500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2700 2425 50  0001 L CIN
+F 3 "" H 2500 2500 50  0001 L CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Laserdiode_1C2A LD?
+U 1 1 5AFB0FA9
+P 2600 1700
+F 0 "LD?" H 2550 1875 50  0000 C CNN
+F 1 "Laserdiode_1C2A" H 2550 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2500 1675 50  0001 C CNN
+F 3 "" H 2630 1500 50  0001 C CNN
+	1    2600 1700
+	0    -1   -1   0   
+$EndComp
+Text HLabel 1900 2500 0    60   Input ~ 0
+in_1
+Text HLabel 1900 2800 0    60   Input ~ 0
+in_2
+Text HLabel 1900 3100 0    60   Input ~ 0
+in_3
+$Comp
+L R_Small R?
+U 1 1 5AFB1414
+P 2600 2150
+F 0 "R?" H 2630 2170 50  0000 L CNN
+F 1 "R_Small" H 2630 2110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2600 2150 50  0001 C CNN
+F 3 "" H 2600 2150 50  0001 C CNN
+	1    2600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AFB1499
+P 2600 1450
+F 0 "#PWR?" H 2600 1300 50  0001 C CNN
+F 1 "+12V" H 2600 1590 50  0000 C CNN
+F 2 "" H 2600 1450 50  0000 C CNN
+F 3 "" H 2600 1450 50  0000 C CNN
+	1    2600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5AFB14B3
+P 2600 2750
+F 0 "#PWR?" H 2600 2550 50  0001 C CNN
+F 1 "GNDPWR" H 2600 2620 50  0000 C CNN
+F 2 "" H 2600 2700 50  0000 C CNN
+F 3 "" H 2600 2700 50  0000 C CNN
+	1    2600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1450 2600 1500
+Wire Wire Line
+	2600 2000 2600 2050
+Wire Wire Line
+	2600 2250 2600 2300
+Wire Wire Line
+	2600 2700 2600 2750
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFB164E
+P 3350 2500
+F 0 "Q?" H 3550 2575 50  0000 L CNN
+F 1 "TBD" H 3550 2500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3550 2425 50  0001 L CIN
+F 3 "" H 3350 2500 50  0001 L CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Laserdiode_1C2A LD?
+U 1 1 5AFB1654
+P 3450 1700
+F 0 "LD?" H 3400 1875 50  0000 C CNN
+F 1 "Laserdiode_1C2A" H 3400 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3350 1675 50  0001 C CNN
+F 3 "" H 3480 1500 50  0001 C CNN
+	1    3450 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFB165A
+P 3450 2150
+F 0 "R?" H 3480 2170 50  0000 L CNN
+F 1 "R_Small" H 3480 2110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3450 2150 50  0001 C CNN
+F 3 "" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AFB1660
+P 3450 1450
+F 0 "#PWR?" H 3450 1300 50  0001 C CNN
+F 1 "+12V" H 3450 1590 50  0000 C CNN
+F 2 "" H 3450 1450 50  0000 C CNN
+F 3 "" H 3450 1450 50  0000 C CNN
+	1    3450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5AFB1666
+P 3450 2750
+F 0 "#PWR?" H 3450 2550 50  0001 C CNN
+F 1 "GNDPWR" H 3450 2620 50  0000 C CNN
+F 2 "" H 3450 2700 50  0000 C CNN
+F 3 "" H 3450 2700 50  0000 C CNN
+	1    3450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1450 3450 1500
+Wire Wire Line
+	3450 2000 3450 2050
+Wire Wire Line
+	3450 2250 3450 2300
+Wire Wire Line
+	3450 2700 3450 2750
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFB16EB
+P 4200 2500
+F 0 "Q?" H 4400 2575 50  0000 L CNN
+F 1 "TBD" H 4400 2500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4400 2425 50  0001 L CIN
+F 3 "" H 4200 2500 50  0001 L CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Laserdiode_1C2A LD?
+U 1 1 5AFB16F1
+P 4300 1700
+F 0 "LD?" H 4250 1875 50  0000 C CNN
+F 1 "Laserdiode_1C2A" H 4250 1600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4200 1675 50  0001 C CNN
+F 3 "" H 4330 1500 50  0001 C CNN
+	1    4300 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFB16F7
+P 4300 2150
+F 0 "R?" H 4330 2170 50  0000 L CNN
+F 1 "R_Small" H 4330 2110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 2150 50  0001 C CNN
+F 3 "" H 4300 2150 50  0001 C CNN
+	1    4300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 5AFB16FD
+P 4300 1450
+F 0 "#PWR?" H 4300 1300 50  0001 C CNN
+F 1 "+12V" H 4300 1590 50  0000 C CNN
+F 2 "" H 4300 1450 50  0000 C CNN
+F 3 "" H 4300 1450 50  0000 C CNN
+	1    4300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5AFB1703
+P 4300 2750
+F 0 "#PWR?" H 4300 2550 50  0001 C CNN
+F 1 "GNDPWR" H 4300 2620 50  0000 C CNN
+F 2 "" H 4300 2700 50  0000 C CNN
+F 3 "" H 4300 2700 50  0000 C CNN
+	1    4300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1450 4300 1500
+Wire Wire Line
+	4300 2000 4300 2050
+Wire Wire Line
+	4300 2250 4300 2300
+Wire Wire Line
+	4300 2700 4300 2750
+Wire Wire Line
+	2300 2500 1900 2500
+Wire Wire Line
+	1900 2800 2000 2800
+Wire Wire Line
+	2000 2800 2000 3000
+Wire Wire Line
+	2000 3000 3100 3000
+Wire Wire Line
+	3100 3000 3100 2500
+Wire Wire Line
+	3100 2500 3150 2500
+Wire Wire Line
+	1900 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 2500
+Wire Wire Line
+	3900 2500 4000 2500
+$EndSCHEMATC
