@@ -1,21 +1,5 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
-  (general
-    (links 105)
-<<<<<<< Updated upstream
-    (no_connects 70)
-    (area 0 0 0 0)
-=======
-    (no_connects 19)
-    (area 174.241032 80.595 278.158334 125.940715)
->>>>>>> Stashed changes
-    (thickness 1.6)
-    (drawings 0)
-    (tracks 278)
-    (zones 0)
-    (modules 54)
-    (nets 38)
-  )
 
   (page A4)
   (layers
