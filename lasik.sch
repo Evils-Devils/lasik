@@ -441,4 +441,100 @@ F 3 "" H 650 4950 50  0000 C CNN
 	1    650  4950
 	-1   0    0    -1  
 $EndComp
+Text HLabel 900  3100 2    60   Input ~ 0
++sensor1
+Text HLabel 900  3200 2    60   Input ~ 0
+-sensor1
+Text HLabel 900  3300 2    60   Input ~ 0
++sensor2
+Text HLabel 900  3400 2    60   Input ~ 0
+-sensor2
+Text HLabel 900  3500 2    60   Input ~ 0
++sensor3
+Text HLabel 900  3600 2    60   Input ~ 0
+-sensor3
+Text HLabel 900  3700 2    60   Input ~ 0
++sensor4
+Text HLabel 900  3800 2    60   Input ~ 0
+-sensor4
+Text HLabel 900  3900 2    60   Input ~ 0
++sensor5
+Text HLabel 900  4000 2    60   Input ~ 0
+-sensor5
+Text HLabel 900  4100 2    60   Input ~ 0
++sensor6
+Text HLabel 900  4200 2    60   Input ~ 0
+-sensor6
+Text HLabel 900  4400 2    60   Input ~ 0
++sensor7
+Text HLabel 900  4500 2    60   Input ~ 0
+-sensor7
+Text HLabel 900  4600 2    60   Input ~ 0
++sensor8
+Text HLabel 900  4700 2    60   Input ~ 0
+-sensor8
+Text HLabel 900  4800 2    60   Input ~ 0
++sensor9
+Text HLabel 900  4900 2    60   Input ~ 0
+-sensor9
+Text HLabel 900  5000 2    60   Input ~ 0
++sensor10
+Text HLabel 900  5100 2    60   Input ~ 0
+-sensor10
+Text HLabel 900  5200 2    60   Input ~ 0
++sensor11
+Text HLabel 900  5300 2    60   Input ~ 0
+-sensor11
+Text HLabel 900  5400 2    60   Input ~ 0
++sensor12
+Text HLabel 900  5500 2    60   Input ~ 0
+-sensor12
+Text HLabel 10800 3100 0    60   Input ~ 0
++laser1
+Text HLabel 10800 3200 0    60   Input ~ 0
+-laser1
+Text HLabel 10800 3300 0    60   Input ~ 0
++laser2
+Text HLabel 10800 3400 0    60   Input ~ 0
+-laser2
+Text HLabel 10800 3500 0    60   Input ~ 0
++laser3
+Text HLabel 10800 3600 0    60   Input ~ 0
+-laser3
+Text HLabel 10800 3700 0    60   Input ~ 0
++laser4
+Text HLabel 10800 3800 0    60   Input ~ 0
+-laser4
+Text HLabel 10800 3900 0    60   Input ~ 0
++laser5
+Text HLabel 10800 4000 0    60   Input ~ 0
+-laser5
+Text HLabel 10800 4100 0    60   Input ~ 0
++laser6
+Text HLabel 10800 4200 0    60   Input ~ 0
+-laser6
+Text HLabel 10800 4400 0    60   Input ~ 0
++laser7
+Text HLabel 10800 4500 0    60   Input ~ 0
+-laser7
+Text HLabel 10800 4600 0    60   Input ~ 0
++laser8
+Text HLabel 10800 4700 0    60   Input ~ 0
+-laser8
+Text HLabel 10800 4800 0    60   Input ~ 0
++laser9
+Text HLabel 10800 4900 0    60   Input ~ 0
+-laser9
+Text HLabel 10800 5000 0    60   Input ~ 0
++laser10
+Text HLabel 10800 5100 0    60   Input ~ 0
+-laser10
+Text HLabel 10800 5200 0    60   Input ~ 0
++laser11
+Text HLabel 10800 5300 0    60   Input ~ 0
+-laser11
+Text HLabel 10800 5400 0    60   Input ~ 0
++laser12
+Text HLabel 10800 5500 0    60   Input ~ 0
+-laser12
 $EndSCHEMATC
