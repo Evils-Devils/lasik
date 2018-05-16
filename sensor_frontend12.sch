@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 35
+Sheet 13 36
 Title ""
 Date ""
 Rev ""
@@ -138,6 +138,24 @@ F35 "amplified_sensor10" I R 3150 5100 60
 F36 "amplified_sensor11" I R 3150 5300 60 
 F37 "amplified_sensor12" I R 3150 5500 60 
 $EndSheet
+$Sheet
+S 3700 3000 1700 2700
+U 5AFFB716
+F0 "the_sheet_to_be_named_later" 60
+F1 "the_sheet_to_be_named_later.sch" 60
+F2 "amplified_sensor1" I L 3700 3200 60 
+F3 "amplified_sensor2" I L 3700 3400 60 
+F4 "amplified_sensor3" I L 3700 3600 60 
+F5 "amplified_sensor4" I L 3700 3800 60 
+F6 "amplified_sensor5" I L 3700 4000 60 
+F7 "amplified_sensor6" I L 3700 4200 60 
+F8 "amplified_sensor7" I L 3700 4500 60 
+F9 "amplified_sensor8" I L 3700 4700 60 
+F10 "amplified_sensor9" I L 3700 4900 60 
+F11 "amplified_sensor10" I L 3700 5100 60 
+F12 "amplified_sensor11" I L 3700 5300 60 
+F13 "amplified_sensor12" I L 3700 5500 60 
+$EndSheet
 Wire Wire Line
 	1550 5550 1100 5550
 Wire Wire Line
@@ -186,4 +204,28 @@ Wire Wire Line
 	1100 3750 1550 3750
 Wire Wire Line
 	1550 3850 1100 3850
+Wire Wire Line
+	3150 5500 3700 5500
+Wire Wire Line
+	3150 5300 3700 5300
+Wire Wire Line
+	3150 5100 3700 5100
+Wire Wire Line
+	3150 4900 3700 4900
+Wire Wire Line
+	3150 4700 3700 4700
+Wire Wire Line
+	3150 4500 3700 4500
+Wire Wire Line
+	3150 4200 3700 4200
+Wire Wire Line
+	3150 4000 3700 4000
+Wire Wire Line
+	3150 3800 3700 3800
+Wire Wire Line
+	3150 3600 3700 3600
+Wire Wire Line
+	3150 3400 3700 3400
+Wire Wire Line
+	3150 3200 3700 3200
 $EndSCHEMATC
