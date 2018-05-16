@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 36
+Sheet 1 51
 Title ""
 Date ""
 Rev ""
@@ -442,7 +442,7 @@ F 3 "" H 650 4950 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Sheet
-S 1000 2850 1100 2950
+S 1000 2850 1550 2900
 U 5AFCE970
 F0 "sensor_frontend12" 60
 F1 "sensor_frontend12.sch" 60
@@ -470,6 +470,18 @@ F22 "+sensor11" I L 1000 5200 60
 F23 "-sensor11" I L 1000 5300 60 
 F24 "+sensor12" I L 1000 5400 60 
 F25 "-sensor12" I L 1000 5500 60 
+F26 "triggered_out1" I R 2550 3150 60 
+F27 "triggered_out2" I R 2550 3350 60 
+F28 "triggered_out3" I R 2550 3550 60 
+F29 "triggered_out4" I R 2550 3750 60 
+F30 "triggered_out5" I R 2550 3950 60 
+F31 "triggered_out6" I R 2550 4150 60 
+F32 "triggered_out7" I R 2550 4450 60 
+F33 "triggered_out8" I R 2550 4650 60 
+F34 "triggered_out9" I R 2550 4850 60 
+F35 "triggered_out10" I R 2550 5050 60 
+F36 "triggered_out11" I R 2550 5250 60 
+F37 "triggered_out12" I R 2550 5450 60 
 $EndSheet
 $Sheet
 S 9550 2800 1150 3150
@@ -597,4 +609,52 @@ Wire Wire Line
 	10700 3200 10850 3200
 Wire Wire Line
 	10700 3100 10850 3100
+Text HLabel 2700 3150 2    60   Input ~ 0
+5v_in1
+Text HLabel 2700 3350 2    60   Input ~ 0
+5v_in2
+Text HLabel 2700 3550 2    60   Input ~ 0
+5v_in3
+Text HLabel 2700 3750 2    60   Input ~ 0
+5v_in4
+Text HLabel 2700 3950 2    60   Input ~ 0
+5v_in5
+Text HLabel 2700 4150 2    60   Input ~ 0
+5v_in6
+Text HLabel 2700 4450 2    60   Input ~ 0
+5v_in7
+Text HLabel 2700 4650 2    60   Input ~ 0
+5v_in8
+Text HLabel 2700 4850 2    60   Input ~ 0
+5v_in9
+Text HLabel 2700 5050 2    60   Input ~ 0
+5v_in10
+Text HLabel 2700 5250 2    60   Input ~ 0
+5v_in11
+Text HLabel 2700 5450 2    60   Input ~ 0
+5v_in12
+Wire Wire Line
+	2700 5450 2550 5450
+Wire Wire Line
+	2700 5250 2550 5250
+Wire Wire Line
+	2550 5050 2700 5050
+Wire Wire Line
+	2700 4850 2550 4850
+Wire Wire Line
+	2700 4650 2550 4650
+Wire Wire Line
+	2550 4450 2700 4450
+Wire Wire Line
+	2700 4150 2550 4150
+Wire Wire Line
+	2550 3950 2700 3950
+Wire Wire Line
+	2700 3750 2550 3750
+Wire Wire Line
+	2550 3550 2700 3550
+Wire Wire Line
+	2550 3350 2700 3350
+Wire Wire Line
+	2550 3150 2700 3150
 $EndSCHEMATC

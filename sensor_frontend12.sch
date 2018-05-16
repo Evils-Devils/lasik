@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 36
+Sheet 13 51
 Title ""
 Date ""
 Rev ""
@@ -139,7 +139,7 @@ F36 "amplified_sensor11" I R 3150 5300 60
 F37 "amplified_sensor12" I R 3150 5500 60 
 $EndSheet
 $Sheet
-S 3700 3000 1700 2700
+S 3700 3000 1900 2700
 U 5AFFB716
 F0 "otto" 60
 F1 "otto.sch" 60
@@ -155,7 +155,43 @@ F10 "amplified_sensor9" I L 3700 4900 60
 F11 "amplified_sensor10" I L 3700 5100 60 
 F12 "amplified_sensor11" I L 3700 5300 60 
 F13 "amplified_sensor12" I L 3700 5500 60 
+F14 "triggered_out1" I R 5600 3200 60 
+F15 "triggered_out2" I R 5600 3400 60 
+F16 "triggered_out3" I R 5600 3600 60 
+F17 "triggered_out4" I R 5600 3800 60 
+F18 "triggered_out5" I R 5600 4000 60 
+F19 "triggered_out6" I R 5600 4200 60 
+F20 "triggered_out7" I R 5600 4500 60 
+F21 "triggered_out8" I R 5600 4700 60 
+F22 "triggered_out9" I R 5600 4900 60 
+F23 "triggered_out10" I R 5600 5100 60 
+F24 "triggered_out11" I R 5600 5300 60 
+F25 "triggered_out12" I R 5600 5500 60 
 $EndSheet
+Text HLabel 5750 3200 2    60   Input ~ 0
+triggered_out1
+Text HLabel 5750 3400 2    60   Input ~ 0
+triggered_out2
+Text HLabel 5750 3600 2    60   Input ~ 0
+triggered_out3
+Text HLabel 5750 3800 2    60   Input ~ 0
+triggered_out4
+Text HLabel 5750 4000 2    60   Input ~ 0
+triggered_out5
+Text HLabel 5750 4200 2    60   Input ~ 0
+triggered_out6
+Text HLabel 5750 4500 2    60   Input ~ 0
+triggered_out7
+Text HLabel 5750 4700 2    60   Input ~ 0
+triggered_out8
+Text HLabel 5750 4900 2    60   Input ~ 0
+triggered_out9
+Text HLabel 5750 5100 2    60   Input ~ 0
+triggered_out10
+Text HLabel 5750 5300 2    60   Input ~ 0
+triggered_out11
+Text HLabel 5750 5500 2    60   Input ~ 0
+triggered_out12
 Wire Wire Line
 	1550 5550 1100 5550
 Wire Wire Line
@@ -228,4 +264,28 @@ Wire Wire Line
 	3150 3400 3700 3400
 Wire Wire Line
 	3150 3200 3700 3200
+Wire Wire Line
+	5600 3200 5750 3200
+Wire Wire Line
+	5600 3400 5750 3400
+Wire Wire Line
+	5600 3600 5750 3600
+Wire Wire Line
+	5600 3800 5750 3800
+Wire Wire Line
+	5750 4000 5600 4000
+Wire Wire Line
+	5600 4200 5750 4200
+Wire Wire Line
+	5600 4500 5750 4500
+Wire Wire Line
+	5600 4700 5750 4700
+Wire Wire Line
+	5600 4900 5750 4900
+Wire Wire Line
+	5600 5100 5750 5100
+Wire Wire Line
+	5600 5300 5750 5300
+Wire Wire Line
+	5600 5500 5750 5500
 $EndSCHEMATC
