@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 30
+Sheet 13 35
 Title ""
 Date ""
 Rev ""
@@ -125,6 +125,18 @@ F22 "+sensor11" I L 1550 5250 60
 F23 "-sensor11" I L 1550 5350 60 
 F24 "+sensor12" I L 1550 5450 60 
 F25 "-sensor12" I L 1550 5550 60 
+F26 "amplified_sensor1" I R 3150 3200 60 
+F27 "amplified_sensor2" I R 3150 3400 60 
+F28 "amplified_sensor3" I R 3150 3600 60 
+F29 "amplified_sensor4" I R 3150 3800 60 
+F30 "amplified_sensor5" I R 3150 4000 60 
+F31 "amplified_sensor6" I R 3150 4200 60 
+F32 "amplified_sensor7" I R 3150 4500 60 
+F33 "amplified_sensor8" I R 3150 4700 60 
+F34 "amplified_sensor9" I R 3150 4900 60 
+F35 "amplified_sensor10" I R 3150 5100 60 
+F36 "amplified_sensor11" I R 3150 5300 60 
+F37 "amplified_sensor12" I R 3150 5500 60 
 $EndSheet
 Wire Wire Line
 	1550 5550 1100 5550

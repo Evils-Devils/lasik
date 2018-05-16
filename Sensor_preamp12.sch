@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 30
+Sheet 14 35
 Title ""
 Date ""
 Rev ""
@@ -294,4 +294,52 @@ Wire Wire Line
 	1300 6000 1300 5550
 Wire Wire Line
 	1300 5550 1100 5550
+Text HLabel 3500 2750 2    60   Input ~ 0
+amplified_sensor1
+Text HLabel 3500 3000 2    60   Input ~ 0
+amplified_sensor2
+Text HLabel 3500 3250 2    60   Input ~ 0
+amplified_sensor3
+Text HLabel 3500 3650 2    60   Input ~ 0
+amplified_sensor4
+Text HLabel 3500 3900 2    60   Input ~ 0
+amplified_sensor5
+Text HLabel 3500 4150 2    60   Input ~ 0
+amplified_sensor6
+Text HLabel 3500 4550 2    60   Input ~ 0
+amplified_sensor7
+Text HLabel 3500 4800 2    60   Input ~ 0
+amplified_sensor8
+Text HLabel 3500 5050 2    60   Input ~ 0
+amplified_sensor9
+Text HLabel 3500 5450 2    60   Input ~ 0
+amplified_sensor10
+Text HLabel 3500 5700 2    60   Input ~ 0
+amplified_sensor11
+Text HLabel 3500 5950 2    60   Input ~ 0
+amplified_sensor12
+Wire Wire Line
+	3300 2750 3500 2750
+Wire Wire Line
+	3300 3000 3500 3000
+Wire Wire Line
+	3300 3250 3500 3250
+Wire Wire Line
+	3300 3650 3500 3650
+Wire Wire Line
+	3300 3900 3500 3900
+Wire Wire Line
+	3300 4150 3500 4150
+Wire Wire Line
+	3300 4550 3500 4550
+Wire Wire Line
+	3300 4800 3500 4800
+Wire Wire Line
+	3300 5050 3500 5050
+Wire Wire Line
+	3300 5450 3500 5450
+Wire Wire Line
+	3300 5700 3500 5700
+Wire Wire Line
+	3300 5950 3500 5950
 $EndSCHEMATC
