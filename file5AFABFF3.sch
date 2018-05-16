@@ -142,17 +142,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 3350 4700 3350
 Connection ~ 5300 2850
-$Comp
-L +3.3V #PWR?
-U 1 1 5AFADEF0
-P 4400 3250
-F 0 "#PWR?" H 4400 3100 50  0001 C CNN
-F 1 "+3.3V" H 4400 3390 50  0000 C CNN
-F 2 "" H 4400 3250 50  0000 C CNN
-F 3 "" H 4400 3250 50  0000 C CNN
-	1    4400 3250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 3250 4400 3300
 $Comp
@@ -220,4 +209,15 @@ Connection ~ 5300 3100
 Wire Wire Line
 	5000 3100 4900 3100
 Connection ~ 4900 3100
+$Comp
+L +5V #PWR?
+U 1 1 5AFCD084
+P 4400 3250
+F 0 "#PWR?" H 4400 3100 50  0001 C CNN
+F 1 "+5V" H 4400 3390 50  0000 C CNN
+F 2 "" H 4400 3250 50  0000 C CNN
+F 3 "" H 4400 3250 50  0000 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
