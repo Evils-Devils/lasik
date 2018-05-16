@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 30
 Title ""
 Date ""
 Rev ""
@@ -140,7 +140,7 @@ Wire Wire Line
 $Sheet
 S 3650 1350 1100 550 
 U 5AFB0D90
-F0 "laser_drivers" 60
+F0 "laser_drivers3" 60
 F1 "file5AFB0D8F.sch" 60
 F2 "in_1" I R 4750 1400 60 
 F3 "in_2" I R 4750 1500 60 
@@ -441,100 +441,160 @@ F 3 "" H 650 4950 50  0000 C CNN
 	1    650  4950
 	-1   0    0    -1  
 $EndComp
-Text HLabel 900  3100 2    60   Input ~ 0
-+sensor1
-Text HLabel 900  3200 2    60   Input ~ 0
--sensor1
-Text HLabel 900  3300 2    60   Input ~ 0
-+sensor2
-Text HLabel 900  3400 2    60   Input ~ 0
--sensor2
-Text HLabel 900  3500 2    60   Input ~ 0
-+sensor3
-Text HLabel 900  3600 2    60   Input ~ 0
--sensor3
-Text HLabel 900  3700 2    60   Input ~ 0
-+sensor4
-Text HLabel 900  3800 2    60   Input ~ 0
--sensor4
-Text HLabel 900  3900 2    60   Input ~ 0
-+sensor5
-Text HLabel 900  4000 2    60   Input ~ 0
--sensor5
-Text HLabel 900  4100 2    60   Input ~ 0
-+sensor6
-Text HLabel 900  4200 2    60   Input ~ 0
--sensor6
-Text HLabel 900  4400 2    60   Input ~ 0
-+sensor7
-Text HLabel 900  4500 2    60   Input ~ 0
--sensor7
-Text HLabel 900  4600 2    60   Input ~ 0
-+sensor8
-Text HLabel 900  4700 2    60   Input ~ 0
--sensor8
-Text HLabel 900  4800 2    60   Input ~ 0
-+sensor9
-Text HLabel 900  4900 2    60   Input ~ 0
--sensor9
-Text HLabel 900  5000 2    60   Input ~ 0
-+sensor10
-Text HLabel 900  5100 2    60   Input ~ 0
--sensor10
-Text HLabel 900  5200 2    60   Input ~ 0
-+sensor11
-Text HLabel 900  5300 2    60   Input ~ 0
--sensor11
-Text HLabel 900  5400 2    60   Input ~ 0
-+sensor12
-Text HLabel 900  5500 2    60   Input ~ 0
--sensor12
-Text HLabel 10800 3100 0    60   Input ~ 0
-+laser1
-Text HLabel 10800 3200 0    60   Input ~ 0
--laser1
-Text HLabel 10800 3300 0    60   Input ~ 0
-+laser2
-Text HLabel 10800 3400 0    60   Input ~ 0
--laser2
-Text HLabel 10800 3500 0    60   Input ~ 0
-+laser3
-Text HLabel 10800 3600 0    60   Input ~ 0
--laser3
-Text HLabel 10800 3700 0    60   Input ~ 0
-+laser4
-Text HLabel 10800 3800 0    60   Input ~ 0
--laser4
-Text HLabel 10800 3900 0    60   Input ~ 0
-+laser5
-Text HLabel 10800 4000 0    60   Input ~ 0
--laser5
-Text HLabel 10800 4100 0    60   Input ~ 0
-+laser6
-Text HLabel 10800 4200 0    60   Input ~ 0
--laser6
-Text HLabel 10800 4400 0    60   Input ~ 0
-+laser7
-Text HLabel 10800 4500 0    60   Input ~ 0
--laser7
-Text HLabel 10800 4600 0    60   Input ~ 0
-+laser8
-Text HLabel 10800 4700 0    60   Input ~ 0
--laser8
-Text HLabel 10800 4800 0    60   Input ~ 0
-+laser9
-Text HLabel 10800 4900 0    60   Input ~ 0
--laser9
-Text HLabel 10800 5000 0    60   Input ~ 0
-+laser10
-Text HLabel 10800 5100 0    60   Input ~ 0
--laser10
-Text HLabel 10800 5200 0    60   Input ~ 0
-+laser11
-Text HLabel 10800 5300 0    60   Input ~ 0
--laser11
-Text HLabel 10800 5400 0    60   Input ~ 0
-+laser12
-Text HLabel 10800 5500 0    60   Input ~ 0
--laser12
+$Sheet
+S 1000 2850 1100 2950
+U 5AFCE970
+F0 "sensor_frontend12" 60
+F1 "sensor_frontend12.sch" 60
+F2 "+sensor1" I L 1000 3100 60 
+F3 "-sensor1" I L 1000 3200 60 
+F4 "+sensor2" I L 1000 3300 60 
+F5 "-sensor2" I L 1000 3400 60 
+F6 "+sensor3" I L 1000 3500 60 
+F7 "-sensor3" I L 1000 3600 60 
+F8 "+sensor4" I L 1000 3700 60 
+F9 "-sensor4" I L 1000 3800 60 
+F10 "+sensor5" I L 1000 3900 60 
+F11 "-sensor5" I L 1000 4000 60 
+F12 "+sensor6" I L 1000 4100 60 
+F13 "-sensor6" I L 1000 4200 60 
+F14 "+sensor7" I L 1000 4400 60 
+F15 "-sensor7" I L 1000 4500 60 
+F16 "+sensor8" I L 1000 4600 60 
+F17 "-sensor8" I L 1000 4700 60 
+F18 "+sensor9" I L 1000 4800 60 
+F19 "-sensor9" I L 1000 4900 60 
+F20 "+sensor10" I L 1000 5000 60 
+F21 "-sensor10" I L 1000 5100 60 
+F22 "+sensor11" I L 1000 5200 60 
+F23 "-sensor11" I L 1000 5300 60 
+F24 "+sensor12" I L 1000 5400 60 
+F25 "-sensor12" I L 1000 5500 60 
+$EndSheet
+$Sheet
+S 9550 2800 1150 3150
+U 5AFCF4A2
+F0 "laser_drivers12" 60
+F1 "laser_drivers12.sch" 60
+F2 "+laser1" I R 10700 3100 60 
+F3 "-laser1" I R 10700 3200 60 
+F4 "+laser2" I R 10700 3300 60 
+F5 "-laser2" I R 10700 3400 60 
+F6 "+laser3" I R 10700 3500 60 
+F7 "-laser3" I R 10700 3600 60 
+F8 "+laser4" I R 10700 3700 60 
+F9 "-laser4" I R 10700 3800 60 
+F10 "+laser5" I R 10700 3900 60 
+F11 "-laser5" I R 10700 4000 60 
+F12 "+laser6" I R 10700 4100 60 
+F13 "-laser6" I R 10700 4200 60 
+F14 "+laser7" I R 10700 4400 60 
+F15 "-laser7" I R 10700 4500 60 
+F16 "+laser8" I R 10700 4600 60 
+F17 "-laser8" I R 10700 4700 60 
+F18 "+laser9" I R 10700 4800 60 
+F19 "-laser9" I R 10700 4900 60 
+F20 "+laser10" I R 10700 5000 60 
+F21 "-laser10" I R 10700 5100 60 
+F22 "+laser11" I R 10700 5200 60 
+F23 "-laser11" I R 10700 5300 60 
+F24 "+laser12" I R 10700 5400 60 
+F25 "-laser12" I R 10700 5500 60 
+$EndSheet
+Wire Wire Line
+	850  3100 1000 3100
+Wire Wire Line
+	850  3200 1000 3200
+Wire Wire Line
+	850  3300 1000 3300
+Wire Wire Line
+	850  3400 1000 3400
+Wire Wire Line
+	1000 3500 850  3500
+Wire Wire Line
+	850  3600 1000 3600
+Wire Wire Line
+	1000 3700 850  3700
+Wire Wire Line
+	850  3800 1000 3800
+Wire Wire Line
+	1000 3900 850  3900
+Wire Wire Line
+	850  4000 1000 4000
+Wire Wire Line
+	1000 4100 850  4100
+Wire Wire Line
+	850  4200 1000 4200
+Wire Wire Line
+	850  4400 1000 4400
+Wire Wire Line
+	850  4500 1000 4500
+Wire Wire Line
+	1000 4600 850  4600
+Wire Wire Line
+	850  4700 1000 4700
+Wire Wire Line
+	850  4800 1000 4800
+Wire Wire Line
+	850  4900 1000 4900
+Wire Wire Line
+	850  5000 1000 5000
+Wire Wire Line
+	850  5100 1000 5100
+Wire Wire Line
+	850  5200 1000 5200
+Wire Wire Line
+	850  5300 1000 5300
+Wire Wire Line
+	850  5400 1000 5400
+Wire Wire Line
+	850  5500 1000 5500
+Wire Wire Line
+	10700 5500 10850 5500
+Wire Wire Line
+	10850 5400 10700 5400
+Wire Wire Line
+	10700 5300 10850 5300
+Wire Wire Line
+	10850 5200 10700 5200
+Wire Wire Line
+	10700 5100 10850 5100
+Wire Wire Line
+	10700 5000 10850 5000
+Wire Wire Line
+	10700 4900 10850 4900
+Wire Wire Line
+	10700 4800 10850 4800
+Wire Wire Line
+	10700 4700 10850 4700
+Wire Wire Line
+	10700 4600 10850 4600
+Wire Wire Line
+	10700 4500 10850 4500
+Wire Wire Line
+	10700 4400 10850 4400
+Wire Wire Line
+	10700 4200 10850 4200
+Wire Wire Line
+	10700 4100 10850 4100
+Wire Wire Line
+	10700 4000 10850 4000
+Wire Wire Line
+	10700 3900 10850 3900
+Wire Wire Line
+	10700 3800 10850 3800
+Wire Wire Line
+	10700 3700 10850 3700
+Wire Wire Line
+	10700 3600 10850 3600
+Wire Wire Line
+	10700 3500 10850 3500
+Wire Wire Line
+	10700 3400 10850 3400
+Wire Wire Line
+	10700 3300 10850 3300
+Wire Wire Line
+	10700 3200 10850 3200
+Wire Wire Line
+	10700 3100 10850 3100
 $EndSCHEMATC
