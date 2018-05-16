@@ -1,4 +1,4 @@
-update=Tue 15 May 2018 07:44:41 CEST
+update=Date
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,5 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+LibName34=stm32duino_boards
+LibName35=custom_libraries/libraries/bluepill_breakouts
