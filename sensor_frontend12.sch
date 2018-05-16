@@ -141,8 +141,8 @@ $EndSheet
 $Sheet
 S 3700 3000 1700 2700
 U 5AFFB716
-F0 "the_sheet_to_be_named_later" 60
-F1 "the_sheet_to_be_named_later.sch" 60
+F0 "otto" 60
+F1 "otto.sch" 60
 F2 "amplified_sensor1" I L 3700 3200 60 
 F3 "amplified_sensor2" I L 3700 3400 60 
 F4 "amplified_sensor3" I L 3700 3600 60 
