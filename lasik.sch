@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32duino_boards
 LIBS:bluepill_breakouts
 LIBS:lasik-cache
 EELAYER 25 0
@@ -396,6 +395,18 @@ F22 "+laser11" I R 10700 4250 60
 F23 "-laser11" I R 10700 4350 60 
 F24 "+laser12" I R 10700 4450 60 
 F25 "-laser12" I R 10700 4550 60 
+F26 "pwm_out1" I L 9550 2200 60 
+F27 "pwm_out2" I L 9550 2400 60 
+F28 "pwm_out3" I L 9550 2600 60 
+F29 "pwm_out4" I L 9550 2800 60 
+F30 "pwm_out5" I L 9550 3000 60 
+F31 "pwm_out6" I L 9550 3200 60 
+F32 "pwm_out7" I L 9550 3500 60 
+F33 "pwm_out8" I L 9550 3700 60 
+F34 "pwm_out9" I L 9550 3900 60 
+F35 "pwm_out10" I L 9550 4100 60 
+F36 "pwm_out11" I L 9550 4300 60 
+F37 "pwm_out12" I L 9550 4500 60 
 $EndSheet
 Wire Wire Line
 	850  2150 1000 2150
@@ -541,4 +552,52 @@ Wire Wire Line
 	2550 2400 2700 2400
 Wire Wire Line
 	2550 2200 2700 2200
+Text HLabel 9350 2200 0    60   Input ~ 0
+pwm_out1
+Text HLabel 9350 2400 0    60   Input ~ 0
+pwm_out2
+Text HLabel 9350 2600 0    60   Input ~ 0
+pwm_out3
+Text HLabel 9350 2800 0    60   Input ~ 0
+pwm_out4
+Text HLabel 9350 3000 0    60   Input ~ 0
+pwm_out5
+Text HLabel 9350 3200 0    60   Input ~ 0
+pwm_out6
+Text HLabel 9350 3500 0    60   Input ~ 0
+pwm_out7
+Text HLabel 9350 3700 0    60   Input ~ 0
+pwm_out8
+Text HLabel 9350 3900 0    60   Input ~ 0
+pwm_out9
+Text HLabel 9350 4100 0    60   Input ~ 0
+pwm_out10
+Text HLabel 9350 4300 0    60   Input ~ 0
+pwm_out11
+Text HLabel 9350 4500 0    60   Input ~ 0
+pwm_out12
+Wire Wire Line
+	9350 2200 9550 2200
+Wire Wire Line
+	9350 2400 9550 2400
+Wire Wire Line
+	9350 2600 9550 2600
+Wire Wire Line
+	9350 2800 9550 2800
+Wire Wire Line
+	9350 3000 9550 3000
+Wire Wire Line
+	9350 3200 9550 3200
+Wire Wire Line
+	9350 3500 9550 3500
+Wire Wire Line
+	9350 3700 9550 3700
+Wire Wire Line
+	9350 3900 9550 3900
+Wire Wire Line
+	9350 4100 9550 4100
+Wire Wire Line
+	9350 4300 9550 4300
+Wire Wire Line
+	9350 4500 9550 4500
 $EndSCHEMATC

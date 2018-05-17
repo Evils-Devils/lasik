@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32duino_boards
 LIBS:bluepill_breakouts
 LIBS:lasik-cache
 EELAYER 25 0

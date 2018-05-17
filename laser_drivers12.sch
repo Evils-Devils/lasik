@@ -31,14 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:stm32duino_boards
 LIBS:bluepill_breakouts
 LIBS:lasik-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 51 40
+Sheet 40 40
 Title ""
 Date ""
 Rev ""
@@ -48,265 +47,532 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1050 3150 0    60   Input ~ 0
+Text HLabel 1950 4050 3    60   Input ~ 0
 +laser1
-Text HLabel 1050 3250 0    60   Input ~ 0
+Text HLabel 1850 4050 3    60   Input ~ 0
 -laser1
-Text HLabel 1050 3350 0    60   Input ~ 0
-+laser2
-Text HLabel 1050 3450 0    60   Input ~ 0
--laser2
-Text HLabel 1050 3550 0    60   Input ~ 0
-+laser3
-Text HLabel 1050 3650 0    60   Input ~ 0
--laser3
-Text HLabel 1050 3750 0    60   Input ~ 0
-+laser4
-Text HLabel 1050 3850 0    60   Input ~ 0
--laser4
-Text HLabel 1050 3950 0    60   Input ~ 0
-+laser5
-Text HLabel 1050 4050 0    60   Input ~ 0
--laser5
-Text HLabel 1050 4150 0    60   Input ~ 0
-+laser6
-Text HLabel 1050 4250 0    60   Input ~ 0
--laser6
-Text HLabel 1050 4450 0    60   Input ~ 0
-+laser7
-Text HLabel 1050 4550 0    60   Input ~ 0
--laser7
-Text HLabel 1050 4650 0    60   Input ~ 0
-+laser8
-Text HLabel 1050 4750 0    60   Input ~ 0
--laser8
-Text HLabel 1050 4850 0    60   Input ~ 0
-+laser9
-Text HLabel 1050 4950 0    60   Input ~ 0
--laser9
-Text HLabel 1050 5050 0    60   Input ~ 0
-+laser10
-Text HLabel 1050 5150 0    60   Input ~ 0
--laser10
-Text HLabel 1050 5250 0    60   Input ~ 0
-+laser11
-Text HLabel 1050 5350 0    60   Input ~ 0
--laser11
-Text HLabel 1050 5450 0    60   Input ~ 0
-+laser12
-Text HLabel 1050 5550 0    60   Input ~ 0
--laser12
-$Comp
-L BSS138-RESCUE-lasik Q?
-U 1 1 5AFE3C98
-P 7000 3500
-F 0 "Q?" H 7200 3575 50  0000 L CNN
-F 1 "TBD" H 7200 3500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7200 3425 50  0001 L CIN
-F 3 "" H 7000 3500 50  0001 L CNN
-	1    7000 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Laserdiode_1C2A LD?
-U 1 1 5AFE3C9F
-P 7100 2950
-F 0 "LD?" H 7050 3125 50  0000 C CNN
-F 1 "Laserdiode_1C2A" H 7050 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7000 2925 50  0001 C CNN
-F 3 "" H 7130 2750 50  0001 C CNN
-	1    7100 2950
-	0    -1   -1   0   
-$EndComp
-Text HLabel 6400 3500 0    60   Input ~ 0
-in_1
-Text HLabel 6400 3800 0    60   Input ~ 0
-in_2
-Text HLabel 6400 4100 0    60   Input ~ 0
-in_3
-$Comp
-L R_Small R?
-U 1 1 5AFE3CA9
-P 7100 2600
-F 0 "R?" H 7130 2620 50  0000 L CNN
-F 1 "R_Small" H 7130 2560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7100 2600 50  0001 C CNN
-F 3 "" H 7100 2600 50  0001 C CNN
-	1    7100 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 5AFE3CB0
-P 7100 2450
-F 0 "#PWR?" H 7100 2300 50  0001 C CNN
-F 1 "+12V" H 7100 2590 50  0000 C CNN
-F 2 "" H 7100 2450 50  0000 C CNN
-F 3 "" H 7100 2450 50  0000 C CNN
-	1    7100 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDPWR #PWR?
-U 1 1 5AFE3CB6
-P 7100 3750
-F 0 "#PWR?" H 7100 3550 50  0001 C CNN
-F 1 "GNDPWR" H 7100 3620 50  0000 C CNN
-F 2 "" H 7100 3700 50  0000 C CNN
-F 3 "" H 7100 3700 50  0000 C CNN
-	1    7100 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 2450 7100 2500
-Wire Wire Line
-	7100 2700 7100 2750
-Wire Wire Line
-	7100 3700 7100 3750
-Wire Wire Line
-	6800 3500 6400 3500
-Wire Wire Line
-	6400 3800 6500 3800
-Wire Wire Line
-	6500 3800 6500 4000
-Wire Wire Line
-	6500 4000 7600 4000
-Wire Wire Line
-	7600 4000 7600 3500
-Wire Wire Line
-	6400 4100 8400 4100
-Wire Wire Line
-	8400 4100 8400 3500
-Wire Wire Line
-	7100 3250 7100 3300
-$Comp
-L BSS138-RESCUE-lasik Q?
-U 1 1 5AFE3CC7
-P 7850 3500
-F 0 "Q?" H 8050 3575 50  0000 L CNN
-F 1 "TBD" H 8050 3500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8050 3425 50  0001 L CIN
-F 3 "" H 7850 3500 50  0001 L CNN
-	1    7850 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Laserdiode_1C2A LD?
-U 1 1 5AFE3CCE
-P 7950 2950
-F 0 "LD?" H 7900 3125 50  0000 C CNN
-F 1 "Laserdiode_1C2A" H 7900 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7850 2925 50  0001 C CNN
-F 3 "" H 7980 2750 50  0001 C CNN
-	1    7950 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 5AFE3CD5
-P 7950 2600
-F 0 "R?" H 7980 2620 50  0000 L CNN
-F 1 "R_Small" H 7980 2560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7950 2600 50  0001 C CNN
-F 3 "" H 7950 2600 50  0001 C CNN
-	1    7950 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 5AFE3CDC
-P 7950 2450
-F 0 "#PWR?" H 7950 2300 50  0001 C CNN
-F 1 "+12V" H 7950 2590 50  0000 C CNN
-F 2 "" H 7950 2450 50  0000 C CNN
-F 3 "" H 7950 2450 50  0000 C CNN
-	1    7950 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDPWR #PWR?
-U 1 1 5AFE3CE2
-P 7950 3750
-F 0 "#PWR?" H 7950 3550 50  0001 C CNN
-F 1 "GNDPWR" H 7950 3620 50  0000 C CNN
-F 2 "" H 7950 3700 50  0000 C CNN
-F 3 "" H 7950 3700 50  0000 C CNN
-	1    7950 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 2450 7950 2500
-Wire Wire Line
-	7950 2700 7950 2750
-Wire Wire Line
-	7950 3700 7950 3750
-Wire Wire Line
-	7950 3250 7950 3300
 $Comp
 L BSS138-RESCUE-lasik Q?
 U 1 1 5AFE3CEC
-P 8650 3500
-F 0 "Q?" H 8850 3575 50  0000 L CNN
-F 1 "TBD" H 8850 3500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8850 3425 50  0001 L CIN
-F 3 "" H 8650 3500 50  0001 L CNN
-	1    8650 3500
+P 1600 4250
+F 0 "Q?" H 1350 4100 50  0000 L CNN
+F 1 "TBD" H 1500 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 1800 4175 50  0001 L CIN
+F 3 "" H 1600 4250 50  0001 L CNN
+	1    1600 4250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Laserdiode_1C2A LD?
-U 1 1 5AFE3CF3
-P 8750 2950
-F 0 "LD?" H 8700 3125 50  0000 C CNN
-F 1 "Laserdiode_1C2A" H 8700 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8650 2925 50  0001 C CNN
-F 3 "" H 8780 2750 50  0001 C CNN
-	1    8750 2950
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R_Small R?
-U 1 1 5AFE3CFA
-P 8750 2600
-F 0 "R?" H 8780 2620 50  0000 L CNN
-F 1 "R_Small" H 8780 2560 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8750 2600 50  0001 C CNN
-F 3 "" H 8750 2600 50  0001 C CNN
-	1    8750 2600
+U 1 1 5AFD93B1
+P 1700 3850
+F 0 "R?" V 1500 3650 50  0000 L CNN
+F 1 "R_Small" V 1600 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1700 3850 50  0001 C CNN
+F 3 "" H 1700 3850 50  0001 C CNN
+	1    1700 3850
 	1    0    0    -1  
 $EndComp
+Text HLabel 1400 4200 1    60   Input ~ 0
+pwm_out1
+Text HLabel 2700 4050 3    60   Input ~ 0
++laser2
+Text HLabel 2600 4050 3    60   Input ~ 0
+-laser2
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB3B9
+P 2350 4250
+F 0 "Q?" H 2100 4100 50  0000 L CNN
+F 1 "TBD" H 2250 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2550 4175 50  0001 L CIN
+F 3 "" H 2350 4250 50  0001 L CNN
+	1    2350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB3BF
+P 2450 3850
+F 0 "R?" V 2250 3650 50  0000 L CNN
+F 1 "R_Small" V 2350 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 2450 3850 50  0001 C CNN
+F 3 "" H 2450 3850 50  0001 C CNN
+	1    2450 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 2150 4200 1    60   Input ~ 0
+pwm_out2
+Text HLabel 3450 4050 3    60   Input ~ 0
++laser3
+Text HLabel 3350 4050 3    60   Input ~ 0
+-laser3
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB4EC
+P 3100 4250
+F 0 "Q?" H 2850 4100 50  0000 L CNN
+F 1 "TBD" H 3000 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3300 4175 50  0001 L CIN
+F 3 "" H 3100 4250 50  0001 L CNN
+	1    3100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB4F2
+P 3200 3850
+F 0 "R?" V 3000 3650 50  0000 L CNN
+F 1 "R_Small" V 3100 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3200 3850 50  0001 C CNN
+F 3 "" H 3200 3850 50  0001 C CNN
+	1    3200 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 2900 4200 1    60   Input ~ 0
+pwm_out3
+Text HLabel 4200 4050 3    60   Input ~ 0
++laser4
+Text HLabel 4100 4050 3    60   Input ~ 0
+-laser4
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB4FF
+P 3850 4250
+F 0 "Q?" H 3600 4100 50  0000 L CNN
+F 1 "TBD" H 3750 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4050 4175 50  0001 L CIN
+F 3 "" H 3850 4250 50  0001 L CNN
+	1    3850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB505
+P 3950 3850
+F 0 "R?" V 3750 3650 50  0000 L CNN
+F 1 "R_Small" V 3850 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3950 3850 50  0001 C CNN
+F 3 "" H 3950 3850 50  0001 C CNN
+	1    3950 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 3650 4200 1    60   Input ~ 0
+pwm_out4
+Text HLabel 4950 4050 3    60   Input ~ 0
++laser5
+Text HLabel 4850 4050 3    60   Input ~ 0
+-laser5
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB912
+P 4600 4250
+F 0 "Q?" H 4350 4100 50  0000 L CNN
+F 1 "TBD" H 4500 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4800 4175 50  0001 L CIN
+F 3 "" H 4600 4250 50  0001 L CNN
+	1    4600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB918
+P 4700 3850
+F 0 "R?" V 4500 3650 50  0000 L CNN
+F 1 "R_Small" V 4600 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 3850 50  0001 C CNN
+F 3 "" H 4700 3850 50  0001 C CNN
+	1    4700 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4400 4200 1    60   Input ~ 0
+pwm_out5
+Text HLabel 5700 4050 3    60   Input ~ 0
++laser6
+Text HLabel 5600 4050 3    60   Input ~ 0
+-laser6
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB925
+P 5350 4250
+F 0 "Q?" H 5100 4100 50  0000 L CNN
+F 1 "TBD" H 5250 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 4175 50  0001 L CIN
+F 3 "" H 5350 4250 50  0001 L CNN
+	1    5350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB92B
+P 5450 3850
+F 0 "R?" V 5250 3650 50  0000 L CNN
+F 1 "R_Small" V 5350 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5450 3850 50  0001 C CNN
+F 3 "" H 5450 3850 50  0001 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 4200 1    60   Input ~ 0
+pwm_out6
+Text HLabel 6450 4050 3    60   Input ~ 0
++laser7
+Text HLabel 6350 4050 3    60   Input ~ 0
+-laser7
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB938
+P 6100 4250
+F 0 "Q?" H 5850 4100 50  0000 L CNN
+F 1 "TBD" H 6000 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6300 4175 50  0001 L CIN
+F 3 "" H 6100 4250 50  0001 L CNN
+	1    6100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB93E
+P 6200 3850
+F 0 "R?" V 6000 3650 50  0000 L CNN
+F 1 "R_Small" V 6100 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6200 3850 50  0001 C CNN
+F 3 "" H 6200 3850 50  0001 C CNN
+	1    6200 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 5900 4200 1    60   Input ~ 0
+pwm_out7
+Text HLabel 7200 4050 3    60   Input ~ 0
++laser8
+Text HLabel 7100 4050 3    60   Input ~ 0
+-laser8
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDB94B
+P 6850 4250
+F 0 "Q?" H 6600 4100 50  0000 L CNN
+F 1 "TBD" H 6750 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7050 4175 50  0001 L CIN
+F 3 "" H 6850 4250 50  0001 L CNN
+	1    6850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDB951
+P 6950 3850
+F 0 "R?" V 6750 3650 50  0000 L CNN
+F 1 "R_Small" V 6850 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6950 3850 50  0001 C CNN
+F 3 "" H 6950 3850 50  0001 C CNN
+	1    6950 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 6650 4200 1    60   Input ~ 0
+pwm_out8
+Text HLabel 7950 4050 3    60   Input ~ 0
++laser9
+Text HLabel 7850 4050 3    60   Input ~ 0
+-laser9
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDBB66
+P 7600 4250
+F 0 "Q?" H 7350 4100 50  0000 L CNN
+F 1 "TBD" H 7500 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7800 4175 50  0001 L CIN
+F 3 "" H 7600 4250 50  0001 L CNN
+	1    7600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDBB6C
+P 7700 3850
+F 0 "R?" V 7500 3650 50  0000 L CNN
+F 1 "R_Small" V 7600 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7700 3850 50  0001 C CNN
+F 3 "" H 7700 3850 50  0001 C CNN
+	1    7700 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 7400 4200 1    60   Input ~ 0
+pwm_out9
+Text HLabel 8700 4050 3    60   Input ~ 0
++laser10
+Text HLabel 8600 4050 3    60   Input ~ 0
+-laser10
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDBB79
+P 8350 4250
+F 0 "Q?" H 8100 4100 50  0000 L CNN
+F 1 "TBD" H 8250 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8550 4175 50  0001 L CIN
+F 3 "" H 8350 4250 50  0001 L CNN
+	1    8350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDBB7F
+P 8450 3850
+F 0 "R?" V 8250 3650 50  0000 L CNN
+F 1 "R_Small" V 8350 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8450 3850 50  0001 C CNN
+F 3 "" H 8450 3850 50  0001 C CNN
+	1    8450 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 8150 4200 1    60   Input ~ 0
+pwm_out10
+Text HLabel 9450 4050 3    60   Input ~ 0
++laser11
+Text HLabel 9350 4050 3    60   Input ~ 0
+-laser11
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDBB8C
+P 9100 4250
+F 0 "Q?" H 8850 4100 50  0000 L CNN
+F 1 "TBD" H 9000 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9300 4175 50  0001 L CIN
+F 3 "" H 9100 4250 50  0001 L CNN
+	1    9100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDBB92
+P 9200 3850
+F 0 "R?" V 9000 3650 50  0000 L CNN
+F 1 "R_Small" V 9100 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9200 3850 50  0001 C CNN
+F 3 "" H 9200 3850 50  0001 C CNN
+	1    9200 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 8900 4200 1    60   Input ~ 0
+pwm_out11
+Text HLabel 10200 4050 3    60   Input ~ 0
++laser12
+Text HLabel 10100 4050 3    60   Input ~ 0
+-laser12
+$Comp
+L BSS138-RESCUE-lasik Q?
+U 1 1 5AFDBB9F
+P 9850 4250
+F 0 "Q?" H 9600 4100 50  0000 L CNN
+F 1 "TBD" H 9750 4400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 10050 4175 50  0001 L CIN
+F 3 "" H 9850 4250 50  0001 L CNN
+	1    9850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 5AFDBBA5
+P 9950 3850
+F 0 "R?" V 9750 3650 50  0000 L CNN
+F 1 "R_Small" V 9850 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9950 3850 50  0001 C CNN
+F 3 "" H 9950 3850 50  0001 C CNN
+	1    9950 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 9650 4200 1    60   Input ~ 0
+pwm_out12
 $Comp
 L +12V #PWR?
-U 1 1 5AFE3D01
-P 8750 2450
-F 0 "#PWR?" H 8750 2300 50  0001 C CNN
-F 1 "+12V" H 8750 2590 50  0000 C CNN
-F 2 "" H 8750 2450 50  0000 C CNN
-F 3 "" H 8750 2450 50  0000 C CNN
-	1    8750 2450
+U 1 1 5AFDD0B2
+P 5800 3500
+F 0 "#PWR?" H 5800 3350 50  0001 C CNN
+F 1 "+12V" H 5800 3640 50  0000 C CNN
+F 2 "" H 5800 3500 50  0000 C CNN
+F 3 "" H 5800 3500 50  0000 C CNN
+	1    5800 3500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1850 4050 1700 4050
+Wire Wire Line
+	1700 3950 1950 3950
+Wire Wire Line
+	1400 4200 1400 4250
+Wire Wire Line
+	1950 3950 1950 4050
+Wire Wire Line
+	2600 4050 2450 4050
+Wire Wire Line
+	2450 3950 2700 3950
+Wire Wire Line
+	2150 4200 2150 4250
+Wire Wire Line
+	2700 3950 2700 4050
+Wire Wire Line
+	3350 4050 3200 4050
+Wire Wire Line
+	3200 3950 3450 3950
+Wire Wire Line
+	2900 4200 2900 4250
+Wire Wire Line
+	3450 3950 3450 4050
+Wire Wire Line
+	4100 4050 3950 4050
+Wire Wire Line
+	3950 3950 4200 3950
+Wire Wire Line
+	3650 4200 3650 4250
+Wire Wire Line
+	4200 3950 4200 4050
+Wire Wire Line
+	4850 4050 4700 4050
+Wire Wire Line
+	4700 3950 4950 3950
+Wire Wire Line
+	4400 4200 4400 4250
+Wire Wire Line
+	4950 3950 4950 4050
+Wire Wire Line
+	5600 4050 5450 4050
+Wire Wire Line
+	5450 3950 5700 3950
+Wire Wire Line
+	5150 4200 5150 4250
+Wire Wire Line
+	5700 3950 5700 4050
+Wire Wire Line
+	6350 4050 6200 4050
+Wire Wire Line
+	6200 3950 6450 3950
+Wire Wire Line
+	5900 4200 5900 4250
+Wire Wire Line
+	6450 3950 6450 4050
+Wire Wire Line
+	7100 4050 6950 4050
+Wire Wire Line
+	6950 3950 7200 3950
+Wire Wire Line
+	6650 4200 6650 4250
+Wire Wire Line
+	7200 3950 7200 4050
+Wire Wire Line
+	7850 4050 7700 4050
+Wire Wire Line
+	7700 3950 7950 3950
+Wire Wire Line
+	7400 4200 7400 4250
+Wire Wire Line
+	7950 3950 7950 4050
+Wire Wire Line
+	8600 4050 8450 4050
+Wire Wire Line
+	8450 3950 8700 3950
+Wire Wire Line
+	8150 4200 8150 4250
+Wire Wire Line
+	8700 3950 8700 4050
+Wire Wire Line
+	9350 4050 9200 4050
+Wire Wire Line
+	9200 3950 9450 3950
+Wire Wire Line
+	8900 4200 8900 4250
+Wire Wire Line
+	9450 3950 9450 4050
+Wire Wire Line
+	10100 4050 9950 4050
+Wire Wire Line
+	9950 3950 10200 3950
+Wire Wire Line
+	9650 4200 9650 4250
+Wire Wire Line
+	10200 3950 10200 4050
+Wire Wire Line
+	9950 3500 9950 3750
+Wire Wire Line
+	1700 3500 9950 3500
+Wire Wire Line
+	1700 3750 1700 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	2450 3750 2450 3500
+Connection ~ 2450 3500
+Wire Wire Line
+	3200 3750 3200 3500
+Connection ~ 3200 3500
+Wire Wire Line
+	3950 3750 3950 3500
+Connection ~ 3950 3500
+Wire Wire Line
+	4700 3750 4700 3500
+Connection ~ 4700 3500
+Wire Wire Line
+	5450 3750 5450 3500
+Connection ~ 5450 3500
+Wire Wire Line
+	6200 3750 6200 3500
+Connection ~ 6200 3500
+Wire Wire Line
+	6950 3750 6950 3500
+Connection ~ 6950 3500
+Wire Wire Line
+	7700 3750 7700 3500
+Connection ~ 7700 3500
+Wire Wire Line
+	8450 3750 8450 3500
+Connection ~ 8450 3500
+Wire Wire Line
+	9200 3750 9200 3500
+Connection ~ 9200 3500
 $Comp
 L GNDPWR #PWR?
-U 1 1 5AFE3D07
-P 8750 3750
-F 0 "#PWR?" H 8750 3550 50  0001 C CNN
-F 1 "GNDPWR" H 8750 3620 50  0000 C CNN
-F 2 "" H 8750 3700 50  0000 C CNN
-F 3 "" H 8750 3700 50  0000 C CNN
-	1    8750 3750
+U 1 1 5AFDDCE9
+P 5800 4550
+F 0 "#PWR?" H 5800 4350 50  0001 C CNN
+F 1 "GNDPWR" H 5800 4420 50  0000 C CNN
+F 2 "" H 5800 4500 50  0000 C CNN
+F 3 "" H 5800 4500 50  0000 C CNN
+	1    5800 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8750 2450 8750 2500
+	9950 4550 9950 4450
 Wire Wire Line
-	8750 2700 8750 2750
+	1700 4550 9950 4550
 Wire Wire Line
-	8750 3700 8750 3750
+	1700 4450 1700 4550
+Connection ~ 5800 4550
 Wire Wire Line
-	8750 3250 8750 3300
+	2450 4450 2450 4550
+Connection ~ 2450 4550
 Wire Wire Line
-	8400 3500 8450 3500
+	3200 4450 3200 4550
+Connection ~ 3200 4550
 Wire Wire Line
-	7600 3500 7650 3500
+	3950 4450 3950 4550
+Connection ~ 3950 4550
+Wire Wire Line
+	4700 4450 4700 4550
+Connection ~ 4700 4550
+Wire Wire Line
+	5450 4450 5450 4550
+Connection ~ 5450 4550
+Wire Wire Line
+	6200 4450 6200 4550
+Connection ~ 6200 4550
+Wire Wire Line
+	6950 4450 6950 4550
+Connection ~ 6950 4550
+Wire Wire Line
+	7700 4450 7700 4550
+Connection ~ 7700 4550
+Wire Wire Line
+	8450 4450 8450 4550
+Connection ~ 8450 4550
+Wire Wire Line
+	9200 4450 9200 4550
+Connection ~ 9200 4550
 $EndSCHEMATC
