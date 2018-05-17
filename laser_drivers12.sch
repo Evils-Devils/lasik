@@ -52,10 +52,10 @@ Text HLabel 1650 4050 3    60   Input ~ 0
 Text HLabel 1550 4050 3    60   Input ~ 0
 -laser1
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4001
 U 1 1 5AFE3CEC
 P 1300 4250
-F 0 "Q?" H 1050 4100 50  0000 L CNN
+F 0 "Q4001" H 1050 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 800 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 1500 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 1300 4250 50  0001 L CNN
@@ -63,10 +63,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 1300 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R?
+L R_Small R4001
 U 1 1 5AFD93B1
 P 1400 3850
-F 0 "R?" V 1200 3650 50  0000 L CNN
+F 0 "R4001" V 1200 3650 50  0000 L CNN
 F 1 "R_Small" V 1300 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 1400 3850 50  0001 C CNN
 F 3 "" H 1400 3850 50  0001 C CNN
@@ -80,10 +80,10 @@ Text HLabel 2400 4050 3    60   Input ~ 0
 Text HLabel 2300 4050 3    60   Input ~ 0
 -laser2
 $Comp
-L R_Small R?
+L R_Small R4002
 U 1 1 5AFDB3BF
 P 2150 3850
-F 0 "R?" V 1950 3650 50  0000 L CNN
+F 0 "R4002" V 1950 3650 50  0000 L CNN
 F 1 "R_Small" V 2050 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2150 3850 50  0001 C CNN
 F 3 "" H 2150 3850 50  0001 C CNN
@@ -97,10 +97,10 @@ Text HLabel 3150 4050 3    60   Input ~ 0
 Text HLabel 3050 4050 3    60   Input ~ 0
 -laser3
 $Comp
-L R_Small R?
+L R_Small R4003
 U 1 1 5AFDB4F2
 P 2900 3850
-F 0 "R?" V 2700 3650 50  0000 L CNN
+F 0 "R4003" V 2700 3650 50  0000 L CNN
 F 1 "R_Small" V 2800 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 3850 50  0001 C CNN
 F 3 "" H 2900 3850 50  0001 C CNN
@@ -114,10 +114,10 @@ Text HLabel 3900 4050 3    60   Input ~ 0
 Text HLabel 3800 4050 3    60   Input ~ 0
 -laser4
 $Comp
-L R_Small R?
+L R_Small R4004
 U 1 1 5AFDB505
 P 3650 3850
-F 0 "R?" V 3450 3650 50  0000 L CNN
+F 0 "R4004" V 3450 3650 50  0000 L CNN
 F 1 "R_Small" V 3550 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 3650 3850 50  0001 C CNN
 F 3 "" H 3650 3850 50  0001 C CNN
@@ -131,10 +131,10 @@ Text HLabel 4650 4050 3    60   Input ~ 0
 Text HLabel 4550 4050 3    60   Input ~ 0
 -laser5
 $Comp
-L R_Small R?
+L R_Small R4005
 U 1 1 5AFDB918
 P 4400 3850
-F 0 "R?" V 4200 3650 50  0000 L CNN
+F 0 "R4005" V 4200 3650 50  0000 L CNN
 F 1 "R_Small" V 4300 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4400 3850 50  0001 C CNN
 F 3 "" H 4400 3850 50  0001 C CNN
@@ -148,10 +148,10 @@ Text HLabel 5400 4050 3    60   Input ~ 0
 Text HLabel 5300 4050 3    60   Input ~ 0
 -laser6
 $Comp
-L R_Small R?
+L R_Small R4006
 U 1 1 5AFDB92B
 P 5150 3850
-F 0 "R?" V 4950 3650 50  0000 L CNN
+F 0 "R4006" V 4950 3650 50  0000 L CNN
 F 1 "R_Small" V 5050 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 5150 3850 50  0001 C CNN
 F 3 "" H 5150 3850 50  0001 C CNN
@@ -165,10 +165,10 @@ Text HLabel 6150 4050 3    60   Input ~ 0
 Text HLabel 6050 4050 3    60   Input ~ 0
 -laser7
 $Comp
-L R_Small R?
+L R_Small R4007
 U 1 1 5AFDB93E
 P 5900 3850
-F 0 "R?" V 5700 3650 50  0000 L CNN
+F 0 "R4007" V 5700 3650 50  0000 L CNN
 F 1 "R_Small" V 5800 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 5900 3850 50  0001 C CNN
 F 3 "" H 5900 3850 50  0001 C CNN
@@ -182,10 +182,10 @@ Text HLabel 6900 4050 3    60   Input ~ 0
 Text HLabel 6800 4050 3    60   Input ~ 0
 -laser8
 $Comp
-L R_Small R?
+L R_Small R4008
 U 1 1 5AFDB951
 P 6650 3850
-F 0 "R?" V 6450 3650 50  0000 L CNN
+F 0 "R4008" V 6450 3650 50  0000 L CNN
 F 1 "R_Small" V 6550 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6650 3850 50  0001 C CNN
 F 3 "" H 6650 3850 50  0001 C CNN
@@ -199,10 +199,10 @@ Text HLabel 7650 4050 3    60   Input ~ 0
 Text HLabel 7550 4050 3    60   Input ~ 0
 -laser9
 $Comp
-L R_Small R?
+L R_Small R4009
 U 1 1 5AFDBB6C
 P 7400 3850
-F 0 "R?" V 7200 3650 50  0000 L CNN
+F 0 "R4009" V 7200 3650 50  0000 L CNN
 F 1 "R_Small" V 7300 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 7400 3850 50  0001 C CNN
 F 3 "" H 7400 3850 50  0001 C CNN
@@ -216,10 +216,10 @@ Text HLabel 8400 4050 3    60   Input ~ 0
 Text HLabel 8300 4050 3    60   Input ~ 0
 -laser10
 $Comp
-L R_Small R?
+L R_Small R4010
 U 1 1 5AFDBB7F
 P 8150 3850
-F 0 "R?" V 7950 3650 50  0000 L CNN
+F 0 "R4010" V 7950 3650 50  0000 L CNN
 F 1 "R_Small" V 8050 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 8150 3850 50  0001 C CNN
 F 3 "" H 8150 3850 50  0001 C CNN
@@ -233,10 +233,10 @@ Text HLabel 9150 4050 3    60   Input ~ 0
 Text HLabel 9050 4050 3    60   Input ~ 0
 -laser11
 $Comp
-L R_Small R?
+L R_Small R4011
 U 1 1 5AFDBB92
 P 8900 3850
-F 0 "R?" V 8700 3650 50  0000 L CNN
+F 0 "R4011" V 8700 3650 50  0000 L CNN
 F 1 "R_Small" V 8800 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 8900 3850 50  0001 C CNN
 F 3 "" H 8900 3850 50  0001 C CNN
@@ -250,10 +250,10 @@ Text HLabel 9900 4050 3    60   Input ~ 0
 Text HLabel 9800 4050 3    60   Input ~ 0
 -laser12
 $Comp
-L R_Small R?
+L R_Small R4012
 U 1 1 5AFDBBA5
 P 9650 3850
-F 0 "R?" V 9450 3650 50  0000 L CNN
+F 0 "R4012" V 9450 3650 50  0000 L CNN
 F 1 "R_Small" V 9550 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 9650 3850 50  0001 C CNN
 F 3 "" H 9650 3850 50  0001 C CNN
@@ -501,10 +501,10 @@ Wire Wire Line
 	8900 4450 8900 4550
 Connection ~ 8900 4550
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4002
 U 1 1 5AFE93D9
 P 2050 4250
-F 0 "Q?" H 1800 4100 50  0000 L CNN
+F 0 "Q4002" H 1800 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 1550 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 2250 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 2050 4250 50  0001 L CNN
@@ -512,10 +512,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 2050 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4003
 U 1 1 5AFE9439
 P 2800 4250
-F 0 "Q?" H 2550 4100 50  0000 L CNN
+F 0 "Q4003" H 2550 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 2300 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3000 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 2800 4250 50  0001 L CNN
@@ -523,10 +523,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 2800 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4004
 U 1 1 5AFE949A
 P 3550 4250
-F 0 "Q?" H 3300 4100 50  0000 L CNN
+F 0 "Q4004" H 3300 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 3050 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3750 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 3550 4250 50  0001 L CNN
@@ -534,10 +534,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 3550 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4005
 U 1 1 5AFE94FC
 P 4300 4250
-F 0 "Q?" H 4050 4100 50  0000 L CNN
+F 0 "Q4005" H 4050 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 3800 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4500 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 4300 4250 50  0001 L CNN
@@ -545,10 +545,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 4300 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4006
 U 1 1 5AFE9561
 P 5050 4250
-F 0 "Q?" H 4800 4100 50  0000 L CNN
+F 0 "Q4006" H 4800 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 4550 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 5250 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 5050 4250 50  0001 L CNN
@@ -556,10 +556,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 5050 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4007
 U 1 1 5AFE962B
 P 5800 4250
-F 0 "Q?" H 5550 4100 50  0000 L CNN
+F 0 "Q4007" H 5550 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 5300 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6000 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 5800 4250 50  0001 L CNN
@@ -567,10 +567,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 5800 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4008
 U 1 1 5AFE96A2
 P 6550 4250
-F 0 "Q?" H 6300 4100 50  0000 L CNN
+F 0 "Q4008" H 6300 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 6050 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 6750 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 6550 4250 50  0001 L CNN
@@ -578,10 +578,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 6550 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4009
 U 1 1 5AFE9722
 P 7300 4250
-F 0 "Q?" H 7050 4100 50  0000 L CNN
+F 0 "Q4009" H 7050 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 6800 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 7500 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 7300 4250 50  0001 L CNN
@@ -589,10 +589,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 7300 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4010
 U 1 1 5AFE9787
 P 8050 4250
-F 0 "Q?" H 7800 4100 50  0000 L CNN
+F 0 "Q4010" H 7800 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 7550 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 8250 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 8050 4250 50  0001 L CNN
@@ -600,10 +600,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 8050 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4011
 U 1 1 5AFE97F9
 P 8800 4250
-F 0 "Q?" H 8550 4100 50  0000 L CNN
+F 0 "Q4011" H 8550 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 8300 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 9000 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 8800 4250 50  0001 L CNN
@@ -611,10 +611,10 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 8800 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NMOS_GSD Q?
+L Q_NMOS_GSD Q4012
 U 1 1 5AFE9870
 P 9550 4250
-F 0 "Q?" H 9300 4100 50  0000 L CNN
+F 0 "Q4012" H 9300 4100 50  0000 L CNN
 F 1 "DMG2302UK-7" H 9050 4000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 9750 4175 50  0001 L CIN
 F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 9550 4250 50  0001 L CNN
