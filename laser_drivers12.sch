@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 40 40
+Sheet 40 41
 Title ""
 Date ""
 Rev ""
@@ -364,7 +364,9 @@ Wire Wire Line
 Wire Wire Line
 	10100 4050 9950 4050
 Wire Wire Line
-	9950 3950 10200 3950
+	9950 3950 10150 3950
+Wire Wire Line
+	10150 3950 10200 3950
 Wire Wire Line
 	9650 4200 9650 4250
 Wire Wire Line
@@ -372,7 +374,29 @@ Wire Wire Line
 Wire Wire Line
 	9950 3500 9950 3750
 Wire Wire Line
-	1700 3500 9950 3500
+	1700 3500 2450 3500
+Wire Wire Line
+	2450 3500 3200 3500
+Wire Wire Line
+	3200 3500 3950 3500
+Wire Wire Line
+	3950 3500 4700 3500
+Wire Wire Line
+	4700 3500 5450 3500
+Wire Wire Line
+	5450 3500 5800 3500
+Wire Wire Line
+	5800 3500 6200 3500
+Wire Wire Line
+	6200 3500 6950 3500
+Wire Wire Line
+	6950 3500 7700 3500
+Wire Wire Line
+	7700 3500 8450 3500
+Wire Wire Line
+	8450 3500 9200 3500
+Wire Wire Line
+	9200 3500 9950 3500
 Wire Wire Line
 	1700 3750 1700 3500
 Connection ~ 5800 3500
@@ -420,7 +444,29 @@ $EndComp
 Wire Wire Line
 	9950 4550 9950 4450
 Wire Wire Line
-	1700 4550 9950 4550
+	1700 4550 2450 4550
+Wire Wire Line
+	2450 4550 3200 4550
+Wire Wire Line
+	3200 4550 3950 4550
+Wire Wire Line
+	3950 4550 4700 4550
+Wire Wire Line
+	4700 4550 5450 4550
+Wire Wire Line
+	5450 4550 5800 4550
+Wire Wire Line
+	5800 4550 6200 4550
+Wire Wire Line
+	6200 4550 6950 4550
+Wire Wire Line
+	6950 4550 7700 4550
+Wire Wire Line
+	7700 4550 8450 4550
+Wire Wire Line
+	8450 4550 9200 4550
+Wire Wire Line
+	9200 4550 9950 4550
 Wire Wire Line
 	1700 4450 1700 4550
 Connection ~ 5800 4550
@@ -575,4 +621,20 @@ F 3 "https://www.mouser.be/datasheet/2/115/DMG2302UK-959451.pdf" H 9850 4250 50 
 	1    9850 4250
 	1    0    0    -1  
 $EndComp
+Text GLabel 10200 3850 2    60   Input ~ 0
+laser_current_debug
+Text GLabel 10200 3600 2    60   Input ~ 0
+bp_pwm_debug
+Wire Wire Line
+	10200 3850 10150 3850
+Wire Wire Line
+	10150 3850 10150 3950
+Connection ~ 10150 3950
+Wire Wire Line
+	10200 3600 9600 3600
+Wire Wire Line
+	9600 3600 9600 4250
+Wire Wire Line
+	9600 4250 9650 4250
+Connection ~ 9650 4250
 $EndSCHEMATC

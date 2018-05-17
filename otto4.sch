@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 36 40
+Sheet 35 41
 Title ""
 Date ""
 Rev ""
@@ -84,8 +84,8 @@ $EndSheet
 $Sheet
 S 1550 2800 1450 200 
 U 5AFCD579
-F0 "otto1-4" 60
-F1 "otto1.sch" 60
+F0 "otto1-4-debug" 60
+F1 "otto1-debug.sch" 60
 F2 "amped_sense" I L 1550 2900 60 
 F3 "triggered_out" I R 3000 2900 60 
 $EndSheet

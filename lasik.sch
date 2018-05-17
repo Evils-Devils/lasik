@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 40
+Sheet 1 41
 Title ""
 Date ""
 Rev ""
@@ -72,8 +72,6 @@ F 3 "" H 4600 2850 50  0001 C CNN
 	1    4600 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4700 2850 4750 2850
 Text HLabel 6550 3550 2    60   Input ~ 0
 pwm_out1
 Text HLabel 6550 3450 2    60   Input ~ 0
@@ -133,8 +131,6 @@ F 3 "" H 4650 3800 50  0000 C CNN
 	1    4650 3850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 3850 4750 3850
 $Comp
 L GNDPWR #PWR?
 U 1 1 5AFC21ED
@@ -146,10 +142,6 @@ F 3 "" H 6550 2000 50  0000 C CNN
 	1    6550 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6500 2050 6500 2150
-Wire Wire Line
-	6550 2050 6500 2050
 $Comp
 L +3.3V #PWR?
 U 1 1 5AFC264A
@@ -161,9 +153,6 @@ F 3 "" H 6550 2250 50  0000 C CNN
 	1    6550 2250
 	0    1    1    0   
 $EndComp
-Connection ~ 6500 2050
-Wire Wire Line
-	6550 2250 6500 2250
 Text HLabel 6550 2350 2    60   Input ~ 0
 stm32_reset
 Text HLabel 6550 3150 2    60   Input ~ 0
@@ -178,68 +167,6 @@ Text HLabel 6550 3650 2    60   Input ~ 0
 3v_nosource_io2
 Text HLabel 4700 3250 0    60   Input ~ 0
 3v_io3
-Wire Wire Line
-	4700 2050 4750 2050
-Wire Wire Line
-	4750 2150 4700 2150
-Wire Wire Line
-	4700 2250 4750 2250
-Wire Wire Line
-	4750 2350 4700 2350
-Wire Wire Line
-	4700 2450 4750 2450
-Wire Wire Line
-	4750 2550 4700 2550
-Wire Wire Line
-	4700 2650 4750 2650
-Wire Wire Line
-	4750 2950 4700 2950
-Wire Wire Line
-	4700 3050 4750 3050
-Wire Wire Line
-	4750 3150 4700 3150
-Wire Wire Line
-	4700 3250 4750 3250
-Wire Wire Line
-	4750 3350 4700 3350
-Wire Wire Line
-	4700 3450 4750 3450
-Wire Wire Line
-	4750 3550 4700 3550
-Wire Wire Line
-	4750 3650 4700 3650
-Wire Wire Line
-	6500 3850 6550 3850
-Wire Wire Line
-	6550 3750 6500 3750
-Wire Wire Line
-	6500 3650 6550 3650
-Wire Wire Line
-	6550 3550 6500 3550
-Wire Wire Line
-	6500 3450 6550 3450
-Wire Wire Line
-	6550 3350 6500 3350
-Wire Wire Line
-	6500 3250 6550 3250
-Wire Wire Line
-	6550 3150 6500 3150
-Wire Wire Line
-	6500 3050 6550 3050
-Wire Wire Line
-	6550 2950 6500 2950
-Wire Wire Line
-	6500 2850 6550 2850
-Wire Wire Line
-	6550 2750 6500 2750
-Wire Wire Line
-	6500 2650 6550 2650
-Wire Wire Line
-	6550 2550 6500 2550
-Wire Wire Line
-	6500 2450 6550 2450
-Wire Wire Line
-	6550 2350 6500 2350
 NoConn ~ 6500 3950
 $Comp
 L +5V #PWR?
@@ -252,8 +179,6 @@ F 3 "" H 4700 3750 50  0000 C CNN
 	1    4700 3750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4700 3750 4750 3750
 $Comp
 L +3.3V #PWR?
 U 1 1 5AFC4BD1
@@ -265,8 +190,6 @@ F 3 "" H 4450 2850 50  0000 C CNN
 	1    4450 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4500 2850 4450 2850
 $Comp
 L +3.3V #PWR?
 U 1 1 5AFC50B4
@@ -278,8 +201,6 @@ F 3 "" H 4700 3950 50  0000 C CNN
 	1    4700 3950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4750 3950 4700 3950
 $Comp
 L CONN_01X12 P104
 U 1 1 5AFC6A99
@@ -408,6 +329,133 @@ F35 "pwm_out10" I L 9550 4100 60
 F36 "pwm_out11" I L 9550 4300 60 
 F37 "pwm_out12" I L 9550 4500 60 
 $EndSheet
+Text HLabel 2700 2200 2    60   Input ~ 0
+5v_in1
+Text HLabel 2700 2400 2    60   Input ~ 0
+5v_in2
+Text HLabel 2700 2600 2    60   Input ~ 0
+5v_in3
+Text HLabel 2700 2800 2    60   Input ~ 0
+5v_in4
+Text HLabel 2700 3000 2    60   Input ~ 0
+5v_in5
+Text HLabel 2700 3200 2    60   Input ~ 0
+5v_in6
+Text HLabel 2700 3500 2    60   Input ~ 0
+5v_in7
+Text HLabel 2700 3700 2    60   Input ~ 0
+5v_in8
+Text HLabel 2700 3900 2    60   Input ~ 0
+5v_in9
+Text HLabel 2700 4100 2    60   Input ~ 0
+5v_in10
+Text HLabel 2700 4300 2    60   Input ~ 0
+5v_in11
+Text HLabel 2700 4500 2    60   Input ~ 0
+5v_in12
+Text HLabel 9350 2200 0    60   Input ~ 0
+pwm_out1
+Text HLabel 9350 2400 0    60   Input ~ 0
+pwm_out2
+Text HLabel 9350 2600 0    60   Input ~ 0
+pwm_out3
+Text HLabel 9350 2800 0    60   Input ~ 0
+pwm_out4
+Text HLabel 9350 3000 0    60   Input ~ 0
+pwm_out5
+Text HLabel 9350 3200 0    60   Input ~ 0
+pwm_out6
+Text HLabel 9350 3500 0    60   Input ~ 0
+pwm_out7
+Text HLabel 9350 3700 0    60   Input ~ 0
+pwm_out8
+Text HLabel 9350 3900 0    60   Input ~ 0
+pwm_out9
+Text HLabel 9350 4100 0    60   Input ~ 0
+pwm_out10
+Text HLabel 9350 4300 0    60   Input ~ 0
+pwm_out11
+Text HLabel 9350 4500 0    60   Input ~ 0
+pwm_out12
+Wire Wire Line
+	4700 2850 4750 2850
+Wire Wire Line
+	4650 3850 4750 3850
+Wire Wire Line
+	6500 2050 6500 2150
+Wire Wire Line
+	6550 2050 6500 2050
+Connection ~ 6500 2050
+Wire Wire Line
+	6550 2250 6500 2250
+Wire Wire Line
+	4700 2050 4750 2050
+Wire Wire Line
+	4750 2150 4700 2150
+Wire Wire Line
+	4700 2250 4750 2250
+Wire Wire Line
+	4750 2350 4700 2350
+Wire Wire Line
+	4700 2450 4750 2450
+Wire Wire Line
+	4750 2550 4700 2550
+Wire Wire Line
+	4700 2650 4750 2650
+Wire Wire Line
+	4750 2950 4700 2950
+Wire Wire Line
+	4700 3050 4750 3050
+Wire Wire Line
+	4750 3150 4700 3150
+Wire Wire Line
+	4700 3250 4750 3250
+Wire Wire Line
+	4750 3350 4700 3350
+Wire Wire Line
+	4700 3450 4750 3450
+Wire Wire Line
+	4750 3550 4700 3550
+Wire Wire Line
+	4750 3650 4700 3650
+Wire Wire Line
+	6500 3850 6550 3850
+Wire Wire Line
+	6550 3750 6500 3750
+Wire Wire Line
+	6500 3650 6550 3650
+Wire Wire Line
+	6550 3550 6500 3550
+Wire Wire Line
+	6500 3450 6550 3450
+Wire Wire Line
+	6550 3350 6500 3350
+Wire Wire Line
+	6500 3250 6550 3250
+Wire Wire Line
+	6550 3150 6500 3150
+Wire Wire Line
+	6500 3050 6550 3050
+Wire Wire Line
+	6550 2950 6500 2950
+Wire Wire Line
+	6500 2850 6550 2850
+Wire Wire Line
+	6550 2750 6500 2750
+Wire Wire Line
+	6500 2650 6550 2650
+Wire Wire Line
+	6550 2550 6500 2550
+Wire Wire Line
+	6500 2450 6550 2450
+Wire Wire Line
+	6550 2350 6500 2350
+Wire Wire Line
+	4700 3750 4750 3750
+Wire Wire Line
+	4500 2850 4450 2850
+Wire Wire Line
+	4750 3950 4700 3950
 Wire Wire Line
 	850  2150 1000 2150
 Wire Wire Line
@@ -504,30 +552,6 @@ Wire Wire Line
 	10700 2250 10850 2250
 Wire Wire Line
 	10700 2150 10850 2150
-Text HLabel 2700 2200 2    60   Input ~ 0
-5v_in1
-Text HLabel 2700 2400 2    60   Input ~ 0
-5v_in2
-Text HLabel 2700 2600 2    60   Input ~ 0
-5v_in3
-Text HLabel 2700 2800 2    60   Input ~ 0
-5v_in4
-Text HLabel 2700 3000 2    60   Input ~ 0
-5v_in5
-Text HLabel 2700 3200 2    60   Input ~ 0
-5v_in6
-Text HLabel 2700 3500 2    60   Input ~ 0
-5v_in7
-Text HLabel 2700 3700 2    60   Input ~ 0
-5v_in8
-Text HLabel 2700 3900 2    60   Input ~ 0
-5v_in9
-Text HLabel 2700 4100 2    60   Input ~ 0
-5v_in10
-Text HLabel 2700 4300 2    60   Input ~ 0
-5v_in11
-Text HLabel 2700 4500 2    60   Input ~ 0
-5v_in12
 Wire Wire Line
 	2700 4500 2550 4500
 Wire Wire Line
@@ -552,30 +576,6 @@ Wire Wire Line
 	2550 2400 2700 2400
 Wire Wire Line
 	2550 2200 2700 2200
-Text HLabel 9350 2200 0    60   Input ~ 0
-pwm_out1
-Text HLabel 9350 2400 0    60   Input ~ 0
-pwm_out2
-Text HLabel 9350 2600 0    60   Input ~ 0
-pwm_out3
-Text HLabel 9350 2800 0    60   Input ~ 0
-pwm_out4
-Text HLabel 9350 3000 0    60   Input ~ 0
-pwm_out5
-Text HLabel 9350 3200 0    60   Input ~ 0
-pwm_out6
-Text HLabel 9350 3500 0    60   Input ~ 0
-pwm_out7
-Text HLabel 9350 3700 0    60   Input ~ 0
-pwm_out8
-Text HLabel 9350 3900 0    60   Input ~ 0
-pwm_out9
-Text HLabel 9350 4100 0    60   Input ~ 0
-pwm_out10
-Text HLabel 9350 4300 0    60   Input ~ 0
-pwm_out11
-Text HLabel 9350 4500 0    60   Input ~ 0
-pwm_out12
 Wire Wire Line
 	9350 2200 9550 2200
 Wire Wire Line
@@ -600,4 +600,16 @@ Wire Wire Line
 	9350 4300 9550 4300
 Wire Wire Line
 	9350 4500 9550 4500
+Text GLabel 5550 1750 2    60   Input ~ 0
+stm32_reset_debug
+Text HLabel 5450 1750 0    60   Input ~ 0
+stm32_reset
+Wire Wire Line
+	5450 1750 5550 1750
+$Sheet
+S 5050 600  1150 600 
+U 5AFF8C1E
+F0 "debug_central" 60
+F1 "debug_central.sch" 60
+$EndSheet
 $EndSCHEMATC
