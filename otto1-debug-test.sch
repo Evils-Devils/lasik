@@ -188,11 +188,7 @@ F 3 "" H 5100 3650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5000 3750 5050 3750
-Wire Wire Line
-	5050 3750 5100 3750
-Wire Wire Line
-	5100 3750 5300 3750
+	5000 3750 5300 3750
 Wire Wire Line
 	5050 3800 5050 3750
 Connection ~ 5050 3750
@@ -202,24 +198,18 @@ Connection ~ 5100 3750
 Wire Wire Line
 	5050 3250 5050 3550
 Wire Wire Line
-	5000 3550 5050 3550
-Wire Wire Line
-	5050 3550 5100 3550
+	5000 3550 5100 3550
 Connection ~ 5050 3550
 Wire Wire Line
 	5100 3250 5050 3250
 Wire Wire Line
-	4900 3050 5050 3050
-Wire Wire Line
-	5050 3050 5100 3050
+	4900 3050 5100 3050
 Wire Wire Line
 	5050 3050 5050 3050
 Connection ~ 5050 3050
 Connection ~ 5050 3250
 Wire Wire Line
-	5750 2550 5750 2800
-Wire Wire Line
-	5750 2800 5750 3150
+	5750 2550 5750 3150
 Wire Wire Line
 	5050 2550 5500 2550
 Wire Wire Line
@@ -247,21 +237,15 @@ F 3 "" H 5300 2750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2850 5300 2800
-Wire Wire Line
-	5300 2800 5300 2750
+	5300 2750 5300 2850
 Text HLabel 4550 3050 0    60   Input ~ 0
 amped_sense
 Wire Wire Line
-	4550 3050 4600 3050
-Wire Wire Line
-	4600 3050 4700 3050
+	4550 3050 4700 3050
 Text HLabel 5900 3150 2    60   Input ~ 0
 triggered_out
 Wire Wire Line
-	5700 3150 5750 3150
-Wire Wire Line
-	5750 3150 5900 3150
+	5700 3150 5900 3150
 Connection ~ 5750 3150
 $Comp
 L R_Small R2604
