@@ -62,5 +62,4 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=stm32duino_boards
-LibName35=custom_libraries/libraries/bluepill_breakouts
+LibName34=custom_libraries/libraries/bluepill_breakouts
