@@ -153,8 +153,6 @@ F 3 "" H 6550 2250 50  0000 C CNN
 	1    6550 2250
 	0    1    1    0   
 $EndComp
-Text HLabel 6550 2350 2    60   Input ~ 0
-stm32_reset
 Text HLabel 6550 3150 2    60   Input ~ 0
 3v_io1
 Text HLabel 6550 3050 2    60   Input ~ 0
@@ -600,12 +598,8 @@ Wire Wire Line
 	9350 4300 9550 4300
 Wire Wire Line
 	9350 4500 9550 4500
-Text GLabel 5550 1750 2    60   Input ~ 0
+Text GLabel 6550 2350 2    60   Input ~ 0
 stm32_reset_debug
-Text HLabel 5450 1750 0    60   Input ~ 0
-stm32_reset
-Wire Wire Line
-	5450 1750 5550 1750
 $Sheet
 S 5050 600  1150 600 
 U 5AFF8C1E
