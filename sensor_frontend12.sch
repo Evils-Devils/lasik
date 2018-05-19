@@ -47,53 +47,53 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1100 3150 0    60   Input ~ 0
-+sensor1
-Text HLabel 1100 3250 0    60   Input ~ 0
--sensor1
-Text HLabel 1100 3350 0    60   Input ~ 0
-+sensor2
-Text HLabel 1100 3450 0    60   Input ~ 0
--sensor2
-Text HLabel 1100 3550 0    60   Input ~ 0
-+sensor3
-Text HLabel 1100 3650 0    60   Input ~ 0
--sensor3
-Text HLabel 1100 3750 0    60   Input ~ 0
-+sensor4
-Text HLabel 1100 3850 0    60   Input ~ 0
--sensor4
-Text HLabel 1100 3950 0    60   Input ~ 0
-+sensor5
-Text HLabel 1100 4050 0    60   Input ~ 0
--sensor5
-Text HLabel 1100 4150 0    60   Input ~ 0
-+sensor6
-Text HLabel 1100 4250 0    60   Input ~ 0
--sensor6
-Text HLabel 1100 4450 0    60   Input ~ 0
-+sensor7
-Text HLabel 1100 4550 0    60   Input ~ 0
--sensor7
-Text HLabel 1100 4650 0    60   Input ~ 0
-+sensor8
-Text HLabel 1100 4750 0    60   Input ~ 0
--sensor8
-Text HLabel 1100 4850 0    60   Input ~ 0
-+sensor9
-Text HLabel 1100 4950 0    60   Input ~ 0
--sensor9
-Text HLabel 1100 5050 0    60   Input ~ 0
-+sensor10
-Text HLabel 1100 5150 0    60   Input ~ 0
--sensor10
-Text HLabel 1100 5250 0    60   Input ~ 0
-+sensor11
-Text HLabel 1100 5350 0    60   Input ~ 0
--sensor11
 Text HLabel 1100 5450 0    60   Input ~ 0
-+sensor12
++sensor1
 Text HLabel 1100 5550 0    60   Input ~ 0
+-sensor1
+Text HLabel 1100 5250 0    60   Input ~ 0
++sensor2
+Text HLabel 1100 5350 0    60   Input ~ 0
+-sensor2
+Text HLabel 1100 5050 0    60   Input ~ 0
++sensor3
+Text HLabel 1100 5150 0    60   Input ~ 0
+-sensor3
+Text HLabel 1100 4850 0    60   Input ~ 0
++sensor4
+Text HLabel 1100 4950 0    60   Input ~ 0
+-sensor4
+Text HLabel 1100 4650 0    60   Input ~ 0
++sensor5
+Text HLabel 1100 4750 0    60   Input ~ 0
+-sensor5
+Text HLabel 1100 4450 0    60   Input ~ 0
++sensor6
+Text HLabel 1100 4550 0    60   Input ~ 0
+-sensor6
+Text HLabel 1100 4150 0    60   Input ~ 0
++sensor7
+Text HLabel 1100 4250 0    60   Input ~ 0
+-sensor7
+Text HLabel 1100 3950 0    60   Input ~ 0
++sensor8
+Text HLabel 1100 4050 0    60   Input ~ 0
+-sensor8
+Text HLabel 1100 3750 0    60   Input ~ 0
++sensor9
+Text HLabel 1100 3850 0    60   Input ~ 0
+-sensor9
+Text HLabel 1100 3550 0    60   Input ~ 0
++sensor10
+Text HLabel 1100 3650 0    60   Input ~ 0
+-sensor10
+Text HLabel 1100 3350 0    60   Input ~ 0
++sensor11
+Text HLabel 1100 3450 0    60   Input ~ 0
+-sensor11
+Text HLabel 1100 3150 0    60   Input ~ 0
++sensor12
+Text HLabel 1100 3250 0    60   Input ~ 0
 -sensor12
 $Sheet
 S 1550 2400 1600 3550
@@ -287,4 +287,6 @@ Wire Wire Line
 	5600 5300 5750 5300
 Wire Wire Line
 	5600 5500 5750 5500
+Text Notes 1950 2850 0    60   ~ 0
+Abandon hope\nye who enter here
 $EndSCHEMATC
