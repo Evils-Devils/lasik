@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 41
+Sheet 19 41
 Title ""
 Date ""
 Rev ""
@@ -49,7 +49,7 @@ Comment4 ""
 $EndDescr
 $Sheet
 S 1450 1650 1400 700 
-U 5AFE6171
+U 5B0224AA
 F0 "sensor_preamp1" 60
 F1 "sensor_preamp1.sch" 60
 F2 "sense_voltage" I R 2850 2150 60 
@@ -59,7 +59,7 @@ F5 "sensor_amplified" I R 2850 1800 60
 $EndSheet
 $Sheet
 S 1450 4800 1400 300 
-U 5AFE6F9E
+U 5B0224AB
 F0 "sense_voltage" 60
 F1 "sense_voltage.sch" 60
 F2 "sense_voltage" I R 2850 4950 60 
@@ -70,7 +70,7 @@ Text HLabel 1050 2150 0    60   Input ~ 0
 -sensor1
 $Sheet
 S 1450 2750 1400 700 
-U 5B0224AC
+U 5AFE7B8C
 F0 "sensor_preamp2" 60
 F1 "sensor_preamp1.sch" 60
 F2 "sense_voltage" I R 2850 3250 60 
@@ -84,7 +84,7 @@ Text HLabel 1050 3250 0    60   Input ~ 0
 -sensor2
 $Sheet
 S 1450 3800 1400 700 
-U 5AFE85BA
+U 5B0224AD
 F0 "sensor_preamp3" 60
 F1 "sensor_preamp1.sch" 60
 F2 "sense_voltage" I R 2850 4300 60 
