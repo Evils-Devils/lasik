@@ -1,0 +1,2 @@
+match laser drivers to physical location (inc debug pins on lowest (#12))
+match triggers to amped output order
