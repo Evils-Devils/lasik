@@ -240,30 +240,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 3850 1100 3850
 Wire Wire Line
-	3150 5500 3700 5500
-Wire Wire Line
-	3150 5300 3700 5300
-Wire Wire Line
-	3150 5100 3700 5100
-Wire Wire Line
-	3150 4900 3700 4900
-Wire Wire Line
-	3150 4700 3700 4700
-Wire Wire Line
-	3150 4500 3700 4500
-Wire Wire Line
-	3150 4200 3700 4200
-Wire Wire Line
-	3150 4000 3700 4000
-Wire Wire Line
-	3150 3800 3700 3800
-Wire Wire Line
-	3150 3600 3700 3600
-Wire Wire Line
-	3150 3400 3700 3400
-Wire Wire Line
-	3150 3200 3700 3200
-Wire Wire Line
 	5600 3200 5750 3200
 Wire Wire Line
 	5600 3400 5750 3400
@@ -289,4 +265,28 @@ Wire Wire Line
 	5600 5500 5750 5500
 Text Notes 1950 2850 0    60   ~ 0
 Abandon hope\nye who enter here
+Wire Wire Line
+	3150 3200 3700 3200
+Wire Wire Line
+	3150 3400 3700 3400
+Wire Wire Line
+	3150 3600 3700 3600
+Wire Wire Line
+	3150 3800 3700 3800
+Wire Wire Line
+	3150 4000 3700 4000
+Wire Wire Line
+	3150 4200 3700 4200
+Wire Wire Line
+	3150 4500 3700 4500
+Wire Wire Line
+	3150 4700 3700 4700
+Wire Wire Line
+	3150 4900 3700 4900
+Wire Wire Line
+	3150 5100 3700 5100
+Wire Wire Line
+	3150 5300 3700 5300
+Wire Wire Line
+	3150 5500 3700 5500
 $EndSCHEMATC
