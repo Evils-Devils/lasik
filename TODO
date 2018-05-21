@@ -1,2 +1,10 @@
+match trigger units to amped output order
 match laser drivers to physical location (inc debug pins on lowest (#12))
-match triggers to amped output order
+connect the blue pill
+debug debug pins on amps
+route blue pill IO
+see if the triggers can be nested
+
+retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
+
+see if the spare pins are useable somewhere
