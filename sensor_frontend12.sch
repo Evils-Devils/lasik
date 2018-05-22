@@ -124,72 +124,72 @@ F22 "+sensor11" I L 1550 5250 60
 F23 "-sensor11" I L 1550 5350 60 
 F24 "+sensor12" I L 1550 5450 60 
 F25 "-sensor12" I L 1550 5550 60 
-F26 "amplified_sensor1" I R 3150 3200 60 
-F27 "amplified_sensor2" I R 3150 3400 60 
-F28 "amplified_sensor3" I R 3150 3600 60 
-F29 "amplified_sensor4" I R 3150 3800 60 
-F30 "amplified_sensor5" I R 3150 4000 60 
-F31 "amplified_sensor6" I R 3150 4200 60 
-F32 "amplified_sensor7" I R 3150 4500 60 
-F33 "amplified_sensor8" I R 3150 4700 60 
-F34 "amplified_sensor9" I R 3150 4900 60 
-F35 "amplified_sensor10" I R 3150 5100 60 
-F36 "amplified_sensor11" I R 3150 5300 60 
-F37 "amplified_sensor12" I R 3150 5500 60 
+F26 "amplified_sensor1" I R 3150 5500 60 
+F27 "amplified_sensor2" I R 3150 5100 60 
+F28 "amplified_sensor3" I R 3150 5300 60 
+F29 "amplified_sensor4" I R 3150 4900 60 
+F30 "amplified_sensor5" I R 3150 4500 60 
+F31 "amplified_sensor6" I R 3150 4700 60 
+F32 "amplified_sensor7" I R 3150 4200 60 
+F33 "amplified_sensor8" I R 3150 3800 60 
+F34 "amplified_sensor9" I R 3150 4000 60 
+F35 "amplified_sensor10" I R 3150 3600 60 
+F36 "amplified_sensor11" I R 3150 3200 60 
+F37 "amplified_sensor12" I R 3150 3400 60 
 $EndSheet
 $Sheet
-S 3700 3000 1900 2700
+S 3950 3000 1900 2700
 U 5AFFB716
 F0 "otto" 60
 F1 "otto.sch" 60
-F2 "amplified_sensor1" I L 3700 3200 60 
-F3 "amplified_sensor2" I L 3700 3400 60 
-F4 "amplified_sensor3" I L 3700 3600 60 
-F5 "amplified_sensor4" I L 3700 3800 60 
-F6 "amplified_sensor5" I L 3700 4000 60 
-F7 "amplified_sensor6" I L 3700 4200 60 
-F8 "amplified_sensor7" I L 3700 4500 60 
-F9 "amplified_sensor8" I L 3700 4700 60 
-F10 "amplified_sensor9" I L 3700 4900 60 
-F11 "amplified_sensor10" I L 3700 5100 60 
-F12 "amplified_sensor11" I L 3700 5300 60 
-F13 "amplified_sensor12" I L 3700 5500 60 
-F14 "triggered_out1" I R 5600 3200 60 
-F15 "triggered_out2" I R 5600 3400 60 
-F16 "triggered_out3" I R 5600 3600 60 
-F17 "triggered_out4" I R 5600 3800 60 
-F18 "triggered_out5" I R 5600 4000 60 
-F19 "triggered_out6" I R 5600 4200 60 
-F20 "triggered_out7" I R 5600 4500 60 
-F21 "triggered_out8" I R 5600 4700 60 
-F22 "triggered_out9" I R 5600 4900 60 
-F23 "triggered_out10" I R 5600 5100 60 
-F24 "triggered_out11" I R 5600 5300 60 
-F25 "triggered_out12" I R 5600 5500 60 
+F2 "amplified_sensor1" I L 3950 3200 60 
+F3 "amplified_sensor2" I L 3950 3400 60 
+F4 "amplified_sensor3" I L 3950 3600 60 
+F5 "amplified_sensor4" I L 3950 3800 60 
+F6 "amplified_sensor5" I L 3950 4000 60 
+F7 "amplified_sensor6" I L 3950 4200 60 
+F8 "amplified_sensor7" I L 3950 4500 60 
+F9 "amplified_sensor8" I L 3950 4700 60 
+F10 "amplified_sensor9" I L 3950 4900 60 
+F11 "amplified_sensor10" I L 3950 5100 60 
+F12 "amplified_sensor11" I L 3950 5300 60 
+F13 "amplified_sensor12" I L 3950 5500 60 
+F14 "triggered_out1" I R 5850 3200 60 
+F15 "triggered_out2" I R 5850 3400 60 
+F16 "triggered_out3" I R 5850 3600 60 
+F17 "triggered_out4" I R 5850 3800 60 
+F18 "triggered_out5" I R 5850 4000 60 
+F19 "triggered_out6" I R 5850 4200 60 
+F20 "triggered_out7" I R 5850 4500 60 
+F21 "triggered_out8" I R 5850 4700 60 
+F22 "triggered_out9" I R 5850 4900 60 
+F23 "triggered_out10" I R 5850 5100 60 
+F24 "triggered_out11" I R 5850 5300 60 
+F25 "triggered_out12" I R 5850 5500 60 
 $EndSheet
-Text HLabel 5750 3200 2    60   Input ~ 0
+Text HLabel 6000 3200 2    60   Input ~ 0
 triggered_out1
-Text HLabel 5750 3400 2    60   Input ~ 0
+Text HLabel 6000 3400 2    60   Input ~ 0
 triggered_out2
-Text HLabel 5750 3600 2    60   Input ~ 0
+Text HLabel 6000 3600 2    60   Input ~ 0
 triggered_out3
-Text HLabel 5750 3800 2    60   Input ~ 0
+Text HLabel 6000 3800 2    60   Input ~ 0
 triggered_out4
-Text HLabel 5750 4000 2    60   Input ~ 0
+Text HLabel 6000 4000 2    60   Input ~ 0
 triggered_out5
-Text HLabel 5750 4200 2    60   Input ~ 0
+Text HLabel 6000 4200 2    60   Input ~ 0
 triggered_out6
-Text HLabel 5750 4500 2    60   Input ~ 0
+Text HLabel 6000 4500 2    60   Input ~ 0
 triggered_out7
-Text HLabel 5750 4700 2    60   Input ~ 0
+Text HLabel 6000 4700 2    60   Input ~ 0
 triggered_out8
-Text HLabel 5750 4900 2    60   Input ~ 0
+Text HLabel 6000 4900 2    60   Input ~ 0
 triggered_out9
-Text HLabel 5750 5100 2    60   Input ~ 0
+Text HLabel 6000 5100 2    60   Input ~ 0
 triggered_out10
-Text HLabel 5750 5300 2    60   Input ~ 0
+Text HLabel 6000 5300 2    60   Input ~ 0
 triggered_out11
-Text HLabel 5750 5500 2    60   Input ~ 0
+Text HLabel 6000 5500 2    60   Input ~ 0
 triggered_out12
 Wire Wire Line
 	1550 5550 1100 5550
@@ -240,53 +240,209 @@ Wire Wire Line
 Wire Wire Line
 	1550 3850 1100 3850
 Wire Wire Line
-	5600 3200 5750 3200
+	5850 3200 6000 3200
 Wire Wire Line
-	5600 3400 5750 3400
+	5850 3400 6000 3400
 Wire Wire Line
-	5600 3600 5750 3600
+	5850 3600 6000 3600
 Wire Wire Line
-	5600 3800 5750 3800
+	5850 3800 6000 3800
 Wire Wire Line
-	5750 4000 5600 4000
+	6000 4000 5850 4000
 Wire Wire Line
-	5600 4200 5750 4200
+	5850 4200 6000 4200
 Wire Wire Line
-	5600 4500 5750 4500
+	5850 4500 6000 4500
 Wire Wire Line
-	5600 4700 5750 4700
+	5850 4700 6000 4700
 Wire Wire Line
-	5600 4900 5750 4900
+	5850 4900 6000 4900
 Wire Wire Line
-	5600 5100 5750 5100
+	5850 5100 6000 5100
 Wire Wire Line
-	5600 5300 5750 5300
+	5850 5300 6000 5300
 Wire Wire Line
-	5600 5500 5750 5500
+	5850 5500 6000 5500
 Text Notes 1950 2850 0    60   ~ 0
 Abandon hope\nye who enter here
 Wire Wire Line
-	3150 3200 3700 3200
+	3650 3200 3950 3200
 Wire Wire Line
-	3150 3400 3700 3400
+	3650 3400 3950 3400
 Wire Wire Line
-	3150 3600 3700 3600
+	3650 3600 3950 3600
 Wire Wire Line
-	3150 3800 3700 3800
+	3650 3800 3950 3800
 Wire Wire Line
-	3150 4000 3700 4000
+	3650 4000 3950 4000
 Wire Wire Line
-	3150 4200 3700 4200
+	3650 4200 3950 4200
 Wire Wire Line
-	3150 4500 3700 4500
+	3650 4500 3950 4500
 Wire Wire Line
-	3150 4700 3700 4700
+	3650 4700 3950 4700
 Wire Wire Line
-	3150 4900 3700 4900
+	3650 4900 3950 4900
 Wire Wire Line
-	3150 5100 3700 5100
+	3650 5100 3950 5100
 Wire Wire Line
-	3150 5300 3700 5300
+	3650 5300 3950 5300
 Wire Wire Line
-	3150 5500 3700 5500
+	3650 5500 3950 5500
+$Comp
+L C_Small C201
+U 1 1 5B063302
+P 3550 3200
+F 0 "C201" V 3600 2950 50  0000 L CNN
+F 1 "C_Small" V 3600 3250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 3200 50  0001 C CNN
+F 3 "" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C202
+U 1 1 5B064382
+P 3550 3400
+F 0 "C202" V 3600 3150 50  0000 L CNN
+F 1 "C_Small" V 3600 3450 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+	1    3550 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C203
+U 1 1 5B064504
+P 3550 3600
+F 0 "C203" V 3600 3350 50  0000 L CNN
+F 1 "C_Small" V 3600 3650 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 3600 50  0001 C CNN
+F 3 "" H 3550 3600 50  0001 C CNN
+	1    3550 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C204
+U 1 1 5B064C4F
+P 3550 3800
+F 0 "C204" V 3600 3550 50  0000 L CNN
+F 1 "C_Small" V 3600 3850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C205
+U 1 1 5B064DD7
+P 3550 4000
+F 0 "C205" V 3600 3750 50  0000 L CNN
+F 1 "C_Small" V 3600 4050 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4000 50  0001 C CNN
+F 3 "" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C206
+U 1 1 5B064F66
+P 3550 4200
+F 0 "C206" V 3600 3950 50  0000 L CNN
+F 1 "C_Small" V 3600 4250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4200 50  0001 C CNN
+F 3 "" H 3550 4200 50  0001 C CNN
+	1    3550 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C207
+U 1 1 5B0656FE
+P 3550 4500
+F 0 "C207" V 3600 4250 50  0000 L CNN
+F 1 "C_Small" V 3600 4550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4500 50  0001 C CNN
+F 3 "" H 3550 4500 50  0001 C CNN
+	1    3550 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C208
+U 1 1 5B065704
+P 3550 4700
+F 0 "C208" V 3600 4450 50  0000 L CNN
+F 1 "C_Small" V 3600 4750 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4700 50  0001 C CNN
+F 3 "" H 3550 4700 50  0001 C CNN
+	1    3550 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C209
+U 1 1 5B06570A
+P 3550 4900
+F 0 "C209" V 3600 4650 50  0000 L CNN
+F 1 "C_Small" V 3600 4950 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 4900 50  0001 C CNN
+F 3 "" H 3550 4900 50  0001 C CNN
+	1    3550 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C210
+U 1 1 5B065710
+P 3550 5100
+F 0 "C210" V 3600 4850 50  0000 L CNN
+F 1 "C_Small" V 3600 5150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 5100 50  0001 C CNN
+F 3 "" H 3550 5100 50  0001 C CNN
+	1    3550 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C211
+U 1 1 5B065716
+P 3550 5300
+F 0 "C211" V 3600 5050 50  0000 L CNN
+F 1 "C_Small" V 3600 5350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 5300 50  0001 C CNN
+F 3 "" H 3550 5300 50  0001 C CNN
+	1    3550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C212
+U 1 1 5B06571C
+P 3550 5500
+F 0 "C212" V 3600 5250 50  0000 L CNN
+F 1 "C_Small" V 3600 5550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3550 5500 50  0001 C CNN
+F 3 "" H 3550 5500 50  0001 C CNN
+	1    3550 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 3200 3450 3200
+Wire Wire Line
+	3450 3400 3150 3400
+Wire Wire Line
+	3150 3600 3450 3600
+Wire Wire Line
+	3450 3800 3150 3800
+Wire Wire Line
+	3150 4000 3450 4000
+Wire Wire Line
+	3450 4200 3150 4200
+Wire Wire Line
+	3150 4500 3450 4500
+Wire Wire Line
+	3150 4700 3450 4700
+Wire Wire Line
+	3450 4900 3150 4900
+Wire Wire Line
+	3150 5100 3450 5100
+Wire Wire Line
+	3150 5300 3450 5300
+Wire Wire Line
+	3450 5500 3150 5500
 $EndSCHEMATC
