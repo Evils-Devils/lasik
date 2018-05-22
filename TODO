@@ -1,5 +1,4 @@
 match trigger units to amped output order
-match laser drivers to physical location (inc debug pins on lowest (#12))
 connect the blue pill
 debug debug pins on amps
 route blue pill IO
