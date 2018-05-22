@@ -142,18 +142,18 @@ S 3950 3000 1900 2700
 U 5AFFB716
 F0 "otto" 60
 F1 "otto.sch" 60
-F2 "amplified_sensor1" I L 3950 3200 60 
-F3 "amplified_sensor2" I L 3950 3400 60 
-F4 "amplified_sensor3" I L 3950 3600 60 
-F5 "amplified_sensor4" I L 3950 3800 60 
-F6 "amplified_sensor5" I L 3950 4000 60 
-F7 "amplified_sensor6" I L 3950 4200 60 
-F8 "amplified_sensor7" I L 3950 4500 60 
-F9 "amplified_sensor8" I L 3950 4700 60 
-F10 "amplified_sensor9" I L 3950 4900 60 
-F11 "amplified_sensor10" I L 3950 5100 60 
-F12 "amplified_sensor11" I L 3950 5300 60 
-F13 "amplified_sensor12" I L 3950 5500 60 
+F2 "amplified_sensor1" I L 3950 3800 60 
+F3 "amplified_sensor2" I L 3950 3600 60 
+F4 "amplified_sensor3" I L 3950 3400 60 
+F5 "amplified_sensor4" I L 3950 3200 60 
+F6 "amplified_sensor5" I L 3950 4500 60 
+F7 "amplified_sensor6" I L 3950 4700 60 
+F8 "amplified_sensor7" I L 3950 4200 60 
+F9 "amplified_sensor8" I L 3950 4000 60 
+F10 "amplified_sensor9" I L 3950 5300 60 
+F11 "amplified_sensor10" I L 3950 5500 60 
+F12 "amplified_sensor11" I L 3950 5100 60 
+F13 "amplified_sensor12" I L 3950 4900 60 
 F14 "triggered_out1" I R 5850 3200 60 
 F15 "triggered_out2" I R 5850 3400 60 
 F16 "triggered_out3" I R 5850 3600 60 
