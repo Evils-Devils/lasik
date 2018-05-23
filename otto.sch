@@ -74,8 +74,8 @@ amplified_sensor12
 $Sheet
 S 1750 2650 1600 550 
 U 5AFCC2D5
-F0 "otto4-1-debug" 60
-F1 "otto4-debug.sch" 60
+F0 "otto4-1" 60
+F1 "otto4.sch" 60
 F2 "amped_sense1" I L 1750 2700 60 
 F3 "amped_sense2" I L 1750 2850 60 
 F4 "amped_sense3" I L 1750 3000 60 
@@ -199,7 +199,7 @@ $Sheet
 S 1750 4950 1650 550 
 U 5AFD08C6
 F0 "otto4-3" 60
-F1 "otto4.sch" 60
+F1 "otto4-debug.sch" 60
 F2 "amped_sense1" I L 1750 5000 60 
 F3 "amped_sense2" I L 1750 5150 60 
 F4 "amped_sense3" I L 1750 5300 60 

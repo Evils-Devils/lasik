@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 25 41
+Sheet 35 41
 Title ""
 Date ""
 Rev ""
@@ -50,8 +50,8 @@ $EndDescr
 $Sheet
 S 1550 1750 1450 200 
 U 5B02385F
-F0 "otto1-1-debug" 60
-F1 "otto1-debug.sch" 60
+F0 "otto1-1-not-debug" 60
+F1 "otto1.sch" 60
 F2 "amped_sense" I L 1550 1850 60 
 F3 "triggered_out" I R 3000 1850 60 
 $EndSheet
@@ -68,16 +68,16 @@ Wire Wire Line
 $Sheet
 S 1550 2100 1450 200 
 U 5AFCD431
-F0 "otto1-2" 60
-F1 "otto1.sch" 60
+F0 "otto1-2-debug" 60
+F1 "otto1-debug.sch" 60
 F2 "amped_sense" I L 1550 2200 60 
 F3 "triggered_out" I R 3000 2200 60 
 $EndSheet
 $Sheet
 S 1550 2450 1450 200 
 U 5AFCD50F
-F0 "otto1-3" 60
-F1 "otto1.sch" 60
+F0 "otto1-3-not-debug!" 60
+F1 "otto1-debug.sch" 60
 F2 "amped_sense" I L 1550 2550 60 
 F3 "triggered_out" I R 3000 2550 60 
 $EndSheet
@@ -112,10 +112,10 @@ Wire Wire Line
 Wire Wire Line
 	3000 2900 3150 2900
 $Comp
-L C_Small C2501
+L C_Small C3501
 U 1 1 5B02386C
 P 2150 3750
-F 0 "C2501" H 2250 3850 50  0000 L CNN
+F 0 "C3501" H 2250 3850 50  0000 L CNN
 F 1 "C_Small" H 2200 3650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2150 3750 50  0001 C CNN
 F 3 "" H 2150 3750 50  0001 C CNN

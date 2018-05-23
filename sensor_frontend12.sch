@@ -191,104 +191,8 @@ Text HLabel 6000 5300 2    60   Input ~ 0
 triggered_out11
 Text HLabel 6000 5500 2    60   Input ~ 0
 triggered_out12
-Wire Wire Line
-	1550 5550 1100 5550
-Wire Wire Line
-	1100 5450 1550 5450
-Wire Wire Line
-	1550 5350 1100 5350
-Wire Wire Line
-	1100 5250 1550 5250
-Wire Wire Line
-	1550 5150 1100 5150
-Wire Wire Line
-	1100 5050 1550 5050
-Wire Wire Line
-	1550 4950 1100 4950
-Wire Wire Line
-	1100 4850 1550 4850
-Wire Wire Line
-	1550 4750 1100 4750
-Wire Wire Line
-	1100 4650 1550 4650
-Wire Wire Line
-	1550 4550 1100 4550
-Wire Wire Line
-	1100 4450 1550 4450
-Wire Wire Line
-	1100 4250 1550 4250
-Wire Wire Line
-	1550 4150 1100 4150
-Wire Wire Line
-	1100 4050 1550 4050
-Wire Wire Line
-	1550 3950 1100 3950
-Wire Wire Line
-	1100 3150 1550 3150
-Wire Wire Line
-	1550 3250 1100 3250
-Wire Wire Line
-	1100 3350 1550 3350
-Wire Wire Line
-	1550 3450 1100 3450
-Wire Wire Line
-	1100 3550 1550 3550
-Wire Wire Line
-	1550 3650 1100 3650
-Wire Wire Line
-	1100 3750 1550 3750
-Wire Wire Line
-	1550 3850 1100 3850
-Wire Wire Line
-	5850 3200 6000 3200
-Wire Wire Line
-	5850 3400 6000 3400
-Wire Wire Line
-	5850 3600 6000 3600
-Wire Wire Line
-	5850 3800 6000 3800
-Wire Wire Line
-	6000 4000 5850 4000
-Wire Wire Line
-	5850 4200 6000 4200
-Wire Wire Line
-	5850 4500 6000 4500
-Wire Wire Line
-	5850 4700 6000 4700
-Wire Wire Line
-	5850 4900 6000 4900
-Wire Wire Line
-	5850 5100 6000 5100
-Wire Wire Line
-	5850 5300 6000 5300
-Wire Wire Line
-	5850 5500 6000 5500
 Text Notes 1950 2850 0    60   ~ 0
 Abandon hope\nye who enter here
-Wire Wire Line
-	3650 3200 3950 3200
-Wire Wire Line
-	3650 3400 3950 3400
-Wire Wire Line
-	3650 3600 3950 3600
-Wire Wire Line
-	3650 3800 3950 3800
-Wire Wire Line
-	3650 4000 3950 4000
-Wire Wire Line
-	3650 4200 3950 4200
-Wire Wire Line
-	3650 4500 3950 4500
-Wire Wire Line
-	3650 4700 3950 4700
-Wire Wire Line
-	3650 4900 3950 4900
-Wire Wire Line
-	3650 5100 3950 5100
-Wire Wire Line
-	3650 5300 3950 5300
-Wire Wire Line
-	3650 5500 3950 5500
 $Comp
 L C_Small C201
 U 1 1 5B063302
@@ -421,6 +325,104 @@ F 3 "" H 3550 5500 50  0001 C CNN
 	1    3550 5500
 	0    -1   -1   0   
 $EndComp
+Text GLabel 3150 6300 0    60   Input ~ 0
+amped_sense_debug
+Wire Wire Line
+	1550 5550 1100 5550
+Wire Wire Line
+	1100 5450 1550 5450
+Wire Wire Line
+	1550 5350 1100 5350
+Wire Wire Line
+	1100 5250 1550 5250
+Wire Wire Line
+	1550 5150 1100 5150
+Wire Wire Line
+	1100 5050 1550 5050
+Wire Wire Line
+	1550 4950 1100 4950
+Wire Wire Line
+	1100 4850 1550 4850
+Wire Wire Line
+	1550 4750 1100 4750
+Wire Wire Line
+	1100 4650 1550 4650
+Wire Wire Line
+	1550 4550 1100 4550
+Wire Wire Line
+	1100 4450 1550 4450
+Wire Wire Line
+	1100 4250 1550 4250
+Wire Wire Line
+	1550 4150 1100 4150
+Wire Wire Line
+	1100 4050 1550 4050
+Wire Wire Line
+	1550 3950 1100 3950
+Wire Wire Line
+	1100 3150 1550 3150
+Wire Wire Line
+	1550 3250 1100 3250
+Wire Wire Line
+	1100 3350 1550 3350
+Wire Wire Line
+	1550 3450 1100 3450
+Wire Wire Line
+	1100 3550 1550 3550
+Wire Wire Line
+	1550 3650 1100 3650
+Wire Wire Line
+	1100 3750 1550 3750
+Wire Wire Line
+	1550 3850 1100 3850
+Wire Wire Line
+	5850 3200 6000 3200
+Wire Wire Line
+	5850 3400 6000 3400
+Wire Wire Line
+	5850 3600 6000 3600
+Wire Wire Line
+	5850 3800 6000 3800
+Wire Wire Line
+	6000 4000 5850 4000
+Wire Wire Line
+	5850 4200 6000 4200
+Wire Wire Line
+	5850 4500 6000 4500
+Wire Wire Line
+	5850 4700 6000 4700
+Wire Wire Line
+	5850 4900 6000 4900
+Wire Wire Line
+	5850 5100 6000 5100
+Wire Wire Line
+	5850 5300 6000 5300
+Wire Wire Line
+	5850 5500 6000 5500
+Wire Wire Line
+	3650 3200 3950 3200
+Wire Wire Line
+	3650 3400 3950 3400
+Wire Wire Line
+	3650 3600 3950 3600
+Wire Wire Line
+	3650 3800 3950 3800
+Wire Wire Line
+	3650 4000 3950 4000
+Wire Wire Line
+	3650 4200 3950 4200
+Wire Wire Line
+	3650 4500 3950 4500
+Wire Wire Line
+	3650 4700 3950 4700
+Wire Wire Line
+	3650 4900 3950 4900
+Wire Wire Line
+	3650 5100 3950 5100
+Wire Wire Line
+	3650 5300 3950 5300
+Wire Wire Line
+	3650 5500 3950 5500
 Wire Wire Line
 	3150 3200 3450 3200
 Wire Wire Line
@@ -445,4 +447,9 @@ Wire Wire Line
 	3150 5300 3450 5300
 Wire Wire Line
 	3450 5500 3150 5500
+Wire Wire Line
+	3150 6300 3250 6300
+Wire Wire Line
+	3250 6300 3250 5100
+Connection ~ 3250 5100
 $EndSCHEMATC
