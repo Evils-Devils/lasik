@@ -339,17 +339,17 @@ Text HLabel 2700 3000 2    60   Input ~ 0
 5v_in5
 Text HLabel 2700 3200 2    60   Input ~ 0
 5v_in6
-Text HLabel 2700 3500 2    60   Input ~ 0
+Text HLabel 2700 4300 2    60   Input ~ 0
 5v_in7
-Text HLabel 2700 3700 2    60   Input ~ 0
+Text HLabel 2700 4500 2    60   Input ~ 0
 5v_in8
 Text HLabel 2700 3900 2    60   Input ~ 0
 5v_in9
 Text HLabel 2700 4100 2    60   Input ~ 0
 5v_in10
-Text HLabel 2700 4300 2    60   Input ~ 0
+Text HLabel 2700 3700 2    60   Input ~ 0
 5v_in11
-Text HLabel 2700 4500 2    60   Input ~ 0
+Text HLabel 2700 3500 2    60   Input ~ 0
 5v_in12
 Text HLabel 9350 2200 0    60   Input ~ 0
 pwm_out1
