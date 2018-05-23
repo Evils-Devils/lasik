@@ -341,9 +341,9 @@ Text HLabel 2700 3200 2    60   Input ~ 0
 5v_in6
 Text HLabel 2700 4300 2    60   Input ~ 0
 5v_in7
-Text HLabel 2700 4500 2    60   Input ~ 0
-5v_in8
 Text HLabel 2700 4100 2    60   Input ~ 0
+5v_in8
+Text HLabel 2700 4500 2    60   Input ~ 0
 5v_in9
 Text HLabel 2700 3900 2    60   Input ~ 0
 5v_in10
