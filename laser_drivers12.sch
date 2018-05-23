@@ -585,10 +585,10 @@ Wire Wire Line
 	9850 3850 9850 3950
 Connection ~ 9850 3950
 Wire Wire Line
-	9900 3600 9300 3600
-Wire Wire Line
 	9300 3600 9300 4250
 Wire Wire Line
 	9300 4250 9350 4250
 Connection ~ 9350 4250
+Wire Wire Line
+	9900 3600 9300 3600
 $EndSCHEMATC

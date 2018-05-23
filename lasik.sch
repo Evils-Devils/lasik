@@ -351,29 +351,29 @@ Text HLabel 2700 3700 2    60   Input ~ 0
 5v_in11
 Text HLabel 2700 3500 2    60   Input ~ 0
 5v_in12
-Text HLabel 9350 2200 0    60   Input ~ 0
+Text HLabel 9350 4300 0    60   Input ~ 0
 pwm_out1
-Text HLabel 9350 2400 0    60   Input ~ 0
-pwm_out2
-Text HLabel 9350 2600 0    60   Input ~ 0
-pwm_out3
-Text HLabel 9350 2800 0    60   Input ~ 0
-pwm_out4
-Text HLabel 9350 3000 0    60   Input ~ 0
-pwm_out5
-Text HLabel 9350 3200 0    60   Input ~ 0
-pwm_out6
-Text HLabel 9350 3500 0    60   Input ~ 0
-pwm_out7
-Text HLabel 9350 3700 0    60   Input ~ 0
-pwm_out8
 Text HLabel 9350 3900 0    60   Input ~ 0
+pwm_out2
+Text HLabel 9350 3500 0    60   Input ~ 0
+pwm_out3
+Text HLabel 9350 3000 0    60   Input ~ 0
+pwm_out4
+Text HLabel 9350 2800 0    60   Input ~ 0
+pwm_out5
+Text HLabel 9350 2600 0    60   Input ~ 0
+pwm_out6
+Text HLabel 9350 2400 0    60   Input ~ 0
+pwm_out7
+Text HLabel 9350 2200 0    60   Input ~ 0
+pwm_out8
+Text HLabel 9350 4500 0    60   Input ~ 0
 pwm_out9
 Text HLabel 9350 4100 0    60   Input ~ 0
 pwm_out10
-Text HLabel 9350 4300 0    60   Input ~ 0
+Text HLabel 9350 3700 0    60   Input ~ 0
 pwm_out11
-Text HLabel 9350 4500 0    60   Input ~ 0
+Text HLabel 9350 3200 0    60   Input ~ 0
 pwm_out12
 Text GLabel 6550 2350 2    60   Input ~ 0
 stm32_reset_debug
