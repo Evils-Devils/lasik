@@ -27,3 +27,6 @@ _saved_*
 
 
 # End of https://www.gitignore.io/api/kicad
+
+# some more
+*.diff
