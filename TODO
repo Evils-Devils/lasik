@@ -1,9 +1,6 @@
-match trigger units to amped output order
-connect the blue pill
+move the drivers towards BP? maybe keep the board square?
 debug debug pins on amps
-route blue pill IO
-see if the triggers can be nested
 
 retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
 
-see if the spare pins are useable somewhere
+spare IO, no go
