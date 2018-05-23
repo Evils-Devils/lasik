@@ -450,6 +450,6 @@ Wire Wire Line
 Wire Wire Line
 	3150 6300 3250 6300
 Wire Wire Line
-	3250 6300 3250 5100
-Connection ~ 3250 5100
+	3250 6300 3250 5500
+Connection ~ 3250 5500
 $EndSCHEMATC

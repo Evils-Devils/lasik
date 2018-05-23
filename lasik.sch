@@ -375,6 +375,58 @@ Text HLabel 9350 4300 0    60   Input ~ 0
 pwm_out11
 Text HLabel 9350 4500 0    60   Input ~ 0
 pwm_out12
+Text GLabel 6550 2350 2    60   Input ~ 0
+stm32_reset_debug
+$Sheet
+S 5050 600  1150 600 
+U 5AFF8C1E
+F0 "debug_central" 60
+F1 "debug_central.sch" 60
+$EndSheet
+$Comp
+L +12V #PWR?
+U 1 1 5AFF9E81
+P 8150 1000
+F 0 "#PWR?" H 8150 850 50  0001 C CNN
+F 1 "+12V" H 8100 1150 50  0000 C CNN
+F 2 "" H 8150 1000 50  0000 C CNN
+F 3 "" H 8150 1000 50  0000 C CNN
+	1    8150 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 5AFFA053
+P 7650 1000
+F 0 "#PWR?" H 7650 800 50  0001 C CNN
+F 1 "GNDPWR" H 7550 850 50  0000 C CNN
+F 2 "" H 7650 950 50  0000 C CNN
+F 3 "" H 7650 950 50  0000 C CNN
+	1    7650 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P103
+U 1 1 5AFFDA7F
+P 7900 800
+F 0 "P103" H 7900 950 50  0000 C CNN
+F 1 "CONN_01X02" V 8000 800 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 7900 800 50  0001 C CNN
+F 3 "" H 7900 800 50  0000 C CNN
+	1    7900 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C101
+U 1 1 5B004131
+P 7900 1100
+F 0 "C101" V 7700 1150 50  0000 L CNN
+F 1 "C_Small" V 7800 950 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7900 1100 50  0001 C CNN
+F 3 "" H 7900 1100 50  0001 C CNN
+	1    7900 1100
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	4700 2850 4750 2850
 Wire Wire Line
@@ -598,66 +650,28 @@ Wire Wire Line
 	9350 4300 9550 4300
 Wire Wire Line
 	9350 4500 9550 4500
-Text GLabel 6550 2350 2    60   Input ~ 0
-stm32_reset_debug
-$Sheet
-S 5050 600  1150 600 
-U 5AFF8C1E
-F0 "debug_central" 60
-F1 "debug_central.sch" 60
-$EndSheet
-$Comp
-L +12V #PWR?
-U 1 1 5AFF9E81
-P 8150 1000
-F 0 "#PWR?" H 8150 850 50  0001 C CNN
-F 1 "+12V" H 8100 1150 50  0000 C CNN
-F 2 "" H 8150 1000 50  0000 C CNN
-F 3 "" H 8150 1000 50  0000 C CNN
-	1    8150 1000
-	-1   0    0    1   
-$EndComp
-$Comp
-L GNDPWR #PWR?
-U 1 1 5AFFA053
-P 7650 1000
-F 0 "#PWR?" H 7650 800 50  0001 C CNN
-F 1 "GNDPWR" H 7550 850 50  0000 C CNN
-F 2 "" H 7650 950 50  0000 C CNN
-F 3 "" H 7650 950 50  0000 C CNN
-	1    7650 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P103
-U 1 1 5AFFDA7F
-P 7900 800
-F 0 "P103" H 7900 950 50  0000 C CNN
-F 1 "CONN_01X02" V 8000 800 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 7900 800 50  0001 C CNN
-F 3 "" H 7900 800 50  0000 C CNN
-	1    7900 800 
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7950 1000 8150 1000
 Wire Wire Line
 	7650 1000 7850 1000
-$Comp
-L C_Small C101
-U 1 1 5B004131
-P 7900 1100
-F 0 "C101" V 7700 1150 50  0000 L CNN
-F 1 "C_Small" V 7800 950 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7900 1100 50  0001 C CNN
-F 3 "" H 7900 1100 50  0001 C CNN
-	1    7900 1100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7800 1100 7800 1000
 Connection ~ 7800 1000
 Wire Wire Line
 	8000 1100 8000 1000
 Connection ~ 8000 1000
+Wire Wire Line
+	2650 2200 2650 4500
+Connection ~ 2650 2400
+Connection ~ 2650 2200
+Connection ~ 2650 2600
+Connection ~ 2650 2800
+Connection ~ 2650 3000
+Connection ~ 2650 3200
+Connection ~ 2650 3500
+Connection ~ 2650 3700
+Connection ~ 2650 3900
+Connection ~ 2650 4100
+Connection ~ 2650 4300
+Connection ~ 2650 4500
 $EndSCHEMATC
