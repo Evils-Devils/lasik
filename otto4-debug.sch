@@ -77,7 +77,7 @@ $Sheet
 S 1550 2450 1450 200 
 U 5AFCD50F
 F0 "otto1-3-not-debug!" 60
-F1 "otto1-debug.sch" 60
+F1 "otto1.sch" 60
 F2 "amped_sense" I L 1550 2550 60 
 F3 "triggered_out" I R 3000 2550 60 
 $EndSheet

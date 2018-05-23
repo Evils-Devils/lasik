@@ -85,6 +85,58 @@ F7 "triggered_out2" I R 3350 2850 60
 F8 "triggered_out3" I R 3350 3000 60 
 F9 "triggered_out4" I R 3350 3150 60 
 $EndSheet
+Text HLabel 3600 2700 2    60   Input ~ 0
+triggered_out1
+Text HLabel 3600 2950 2    60   Input ~ 0
+triggered_out2
+Text HLabel 3600 3200 2    60   Input ~ 0
+triggered_out3
+Text HLabel 3600 3600 2    60   Input ~ 0
+triggered_out4
+$Sheet
+S 1750 3800 1650 550 
+U 5AFCF0A3
+F0 "otto4-2" 60
+F1 "otto4.sch" 60
+F2 "amped_sense1" I L 1750 3850 60 
+F3 "amped_sense2" I L 1750 4000 60 
+F4 "amped_sense3" I L 1750 4150 60 
+F5 "amped_sense4" I L 1750 4300 60 
+F6 "triggered_out1" I R 3400 3850 60 
+F7 "triggered_out2" I R 3400 4000 60 
+F8 "triggered_out3" I R 3400 4150 60 
+F9 "triggered_out4" I R 3400 4300 60 
+$EndSheet
+Text HLabel 3600 3850 2    60   Input ~ 0
+triggered_out5
+Text HLabel 3600 4100 2    60   Input ~ 0
+triggered_out6
+Text HLabel 3600 4500 2    60   Input ~ 0
+triggered_out7
+Text HLabel 3600 4750 2    60   Input ~ 0
+triggered_out8
+$Sheet
+S 1750 4950 1650 550 
+U 5AFD08C6
+F0 "otto4-3" 60
+F1 "otto4-debug.sch" 60
+F2 "amped_sense1" I L 1750 5000 60 
+F3 "amped_sense2" I L 1750 5150 60 
+F4 "amped_sense3" I L 1750 5300 60 
+F5 "amped_sense4" I L 1750 5450 60 
+F6 "triggered_out1" I R 3400 5000 60 
+F7 "triggered_out2" I R 3400 5150 60 
+F8 "triggered_out3" I R 3400 5300 60 
+F9 "triggered_out4" I R 3400 5450 60 
+$EndSheet
+Text HLabel 3600 5000 2    60   Input ~ 0
+triggered_out9
+Text HLabel 3600 5400 2    60   Input ~ 0
+triggered_out10
+Text HLabel 3600 5650 2    60   Input ~ 0
+triggered_out11
+Text HLabel 3600 5900 2    60   Input ~ 0
+triggered_out12
 Wire Wire Line
 	1750 2700 1550 2700
 Wire Wire Line
@@ -105,14 +157,6 @@ Wire Wire Line
 	1650 3150 1650 3600
 Wire Wire Line
 	1650 3600 1550 3600
-Text HLabel 3600 2700 2    60   Input ~ 0
-triggered_out1
-Text HLabel 3600 2950 2    60   Input ~ 0
-triggered_out2
-Text HLabel 3600 3200 2    60   Input ~ 0
-triggered_out3
-Text HLabel 3600 3600 2    60   Input ~ 0
-triggered_out4
 Wire Wire Line
 	3350 2700 3600 2700
 Wire Wire Line
@@ -133,20 +177,6 @@ Wire Wire Line
 	3500 3150 3500 3600
 Wire Wire Line
 	3500 3600 3600 3600
-$Sheet
-S 1750 3800 1650 550 
-U 5AFCF0A3
-F0 "otto4-2" 60
-F1 "otto4.sch" 60
-F2 "amped_sense1" I L 1750 3850 60 
-F3 "amped_sense2" I L 1750 4000 60 
-F4 "amped_sense3" I L 1750 4150 60 
-F5 "amped_sense4" I L 1750 4300 60 
-F6 "triggered_out1" I R 3400 3850 60 
-F7 "triggered_out2" I R 3400 4000 60 
-F8 "triggered_out3" I R 3400 4150 60 
-F9 "triggered_out4" I R 3400 4300 60 
-$EndSheet
 Wire Wire Line
 	1750 3850 1550 3850
 Wire Wire Line
@@ -167,14 +197,6 @@ Wire Wire Line
 	1650 4300 1650 4750
 Wire Wire Line
 	1650 4750 1550 4750
-Text HLabel 3600 3850 2    60   Input ~ 0
-triggered_out5
-Text HLabel 3600 4100 2    60   Input ~ 0
-triggered_out6
-Text HLabel 3600 4500 2    60   Input ~ 0
-triggered_out7
-Text HLabel 3600 4750 2    60   Input ~ 0
-triggered_out8
 Wire Wire Line
 	3600 3850 3400 3850
 Wire Wire Line
@@ -195,20 +217,6 @@ Wire Wire Line
 	3500 4300 3500 4750
 Wire Wire Line
 	3500 4750 3600 4750
-$Sheet
-S 1750 4950 1650 550 
-U 5AFD08C6
-F0 "otto4-3" 60
-F1 "otto4-debug.sch" 60
-F2 "amped_sense1" I L 1750 5000 60 
-F3 "amped_sense2" I L 1750 5150 60 
-F4 "amped_sense3" I L 1750 5300 60 
-F5 "amped_sense4" I L 1750 5450 60 
-F6 "triggered_out1" I R 3400 5000 60 
-F7 "triggered_out2" I R 3400 5150 60 
-F8 "triggered_out3" I R 3400 5300 60 
-F9 "triggered_out4" I R 3400 5450 60 
-$EndSheet
 Wire Wire Line
 	1750 5000 1550 5000
 Wire Wire Line
@@ -229,14 +237,6 @@ Wire Wire Line
 	1700 5450 1700 5900
 Wire Wire Line
 	1700 5900 1550 5900
-Text HLabel 3600 5000 2    60   Input ~ 0
-triggered_out9
-Text HLabel 3600 5400 2    60   Input ~ 0
-triggered_out10
-Text HLabel 3600 5650 2    60   Input ~ 0
-triggered_out11
-Text HLabel 3600 5900 2    60   Input ~ 0
-triggered_out12
 Wire Wire Line
 	3400 5000 3600 5000
 Wire Wire Line
