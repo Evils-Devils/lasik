@@ -1,3 +1,4 @@
+ATTACH sense_voltage!
 match trigger units to amped output order
 connect the blue pill
 debug debug pins on amps
