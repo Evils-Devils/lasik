@@ -1,8 +1,25 @@
 align silkscreen to components?
 
+add useful silkscreen
+	mark debug pins
+	mark input polarities!
+	mark and number the IO
+
+several cleanup passes?
+
 add artwork (OSHW, HS.G, EVLS, SASJ)
+OSHW gear next to 6 pin debug header?
+credit at the top left? (that cap is on the bottom layer)
+sprinkle some thanks elsewhere?
+	allot of space left next to the blue pill on the bottom
+		github link etc?
+		barcode?
 
 resolve DRC errors (only ones atm are due to the debug pins making the BP inputs misbehave)
+
+define board outline, square?
+add mounting holes?
+add fiducials?
 
 retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
 
