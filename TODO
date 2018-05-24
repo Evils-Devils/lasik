@@ -4,6 +4,7 @@ add useful silkscreen
 	mark debug pins
 	mark input polarities!
 	mark and number the IO
+	ESD caution symbol!
 
 several cleanup passes?
 
