@@ -414,7 +414,7 @@ F 1 "CONN_01X02" V 8000 800 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 7900 800 50  0001 C CNN
 F 3 "" H 7900 800 50  0000 C CNN
 	1    7900 800 
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L C_Small C101

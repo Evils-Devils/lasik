@@ -1,5 +1,8 @@
-move the drivers towards BP? maybe keep the board square?
-debug debug pins on amps
+align silkscreen to components?
+
+add artwork (OSHW, HS.G, EVLS, SASJ)
+
+resolve DRC errors (only ones atm are due to the debug pins making the BP inputs misbehave)
 
 retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
 
