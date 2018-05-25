@@ -2,6 +2,7 @@ align silkscreen to components?
 	remove silkscreen from pads
 
 square up the board outline?
+	move the 12v terminal block so it aligns to the edge?
 
 add useful silkscreen
 	mark debug pins
@@ -10,6 +11,10 @@ add useful silkscreen
 	white patch to write on? (numbering etc)
 
 several cleanup passes?
+	under BP and between pins
+		left and right of pill done
+	"fix" traces to final position, add ground zones
+	
 
 add artwork (OSHW, HS.G, EVLS, SASJ)
 OSHW gear next to 6 pin debug header?
@@ -19,9 +24,8 @@ sprinkle some thanks elsewhere?
 		github link etc?
 		barcode?
 
-resolve DRC errors (only ones atm are due to the debug pins making the BP inputs misbehave)
+resolve DRC errors? (only ones atm are due to the debug pins making the BP inputs misbehave)
 
-define board outline, square?
 add mounting holes?
 add fiducials?
 
