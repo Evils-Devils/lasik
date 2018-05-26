@@ -1,12 +1,11 @@
-align silkscreen to components?
-	remove silkscreen from pads
-
 square up the board outline?
 	move the 12v terminal block so it aligns to the edge?
+	squared outline, set edge to 12v block, put rest of pcb at bottom
+		move outline up, keep 12v block at edge and away from blue pill? (2.54mm grid!)
 
 add useful silkscreen
-	mark debug pins
 	mark input polarities!
+		words done, maybe add symbols?
 	mark and number the IO
 	white patch to write on? (numbering etc)
 
@@ -16,7 +15,7 @@ several cleanup passes?
 	"fix" traces to final position, add ground zones
 	
 
-add artwork (OSHW, HS.G, EVLS, SASJ)
+add artwork (OSHW, sasja)
 OSHW gear next to 6 pin debug header?
 credit at the top left? (that cap is on the bottom layer)
 sprinkle some thanks elsewhere?
@@ -28,9 +27,6 @@ resolve DRC errors? (only ones atm are due to the debug pins making the BP input
 
 add mounting holes?
 add fiducials?
-
-retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
-	B.Mask?
 
 via stitching on GND
 	maybe add a few easter eggs?

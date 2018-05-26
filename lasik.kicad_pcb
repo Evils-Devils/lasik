@@ -22,7 +22,7 @@
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
+    (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
@@ -7267,4 +7267,19 @@
   (segment (start 49.385201 56.243201) (end 47.362401 56.243201) (width 0.25) (layer B.Cu) (net 122) (status 20))
   (segment (start 70.1294 47.638155) (end 69.571898 47.638155) (width 0.25) (layer B.Cu) (net 122) (status 30))
 
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 13.6906 14.1478) (xy 13.6906 81.7626) (xy 15.494 81.7626) (xy 15.494 14.1478)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 15.367 81.6356) (xy 13.8176 81.6356) (xy 13.8176 14.2748) (xy 15.367 14.2748)
+      )
+    )
+  )
 )
