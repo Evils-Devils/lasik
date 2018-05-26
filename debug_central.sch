@@ -136,16 +136,6 @@ F 3 "" H 6200 3250 50  0000 C CNN
 	1    6200 3250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6100 3000 6100 3050
-Wire Wire Line
-	6200 3000 6200 3050
-Wire Wire Line
-	6350 2950 6350 3000
-Wire Wire Line
-	6350 3000 6300 3000
-Wire Wire Line
-	6300 3000 6300 3050
 $Comp
 L CONN_01X03 P4103
 U 1 1 5B076878
@@ -157,6 +147,23 @@ F 3 "" H 6200 4900 50  0000 C CNN
 	1    6200 4900
 	0    -1   -1   0   
 $EndComp
+$Comp
+L CONN_01X06 P4101
+U 1 1 5B0769A2
+P 5200 4900
+F 0 "P4101" H 5200 5250 50  0000 C CNN
+F 1 "CONN_01X06" V 5300 4900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 5200 4900 50  0001 C CNN
+F 3 "" H 5200 4900 50  0000 C CNN
+	1    5200 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3000 6100 3050
+Wire Wire Line
+	6200 3000 6200 3050
+Wire Wire Line
+	6300 3000 6300 3050
 Wire Wire Line
 	6200 5100 6200 5200
 Wire Wire Line
@@ -171,17 +178,6 @@ Wire Wire Line
 	6300 5150 6350 5150
 Wire Wire Line
 	6350 5150 6350 5200
-$Comp
-L CONN_01X06 P4101
-U 1 1 5B0769A2
-P 5200 4900
-F 0 "P4101" H 5200 5250 50  0000 C CNN
-F 1 "CONN_01X06" V 5300 4900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 5200 4900 50  0001 C CNN
-F 3 "" H 5200 4900 50  0000 C CNN
-	1    5200 4900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5100 5250 5100 5150
 Wire Wire Line
@@ -212,4 +208,8 @@ Wire Wire Line
 	4800 5250 4800 5100
 Wire Wire Line
 	4800 5100 4950 5100
+Wire Wire Line
+	6350 3000 6300 3000
+Wire Wire Line
+	6350 2950 6350 3000
 $EndSCHEMATC
