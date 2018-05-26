@@ -1,32 +1,17 @@
-square up the board outline?
-	move the 12v terminal block so it aligns to the edge?
-	squared outline, set edge to 12v block, put rest of pcb at bottom
-		move outline up, keep 12v block at edge and away from blue pill? (2.54mm grid!)
+"fix" traces to final position, add ground zones
 
-add useful silkscreen
-	mark input polarities!
-		words done, maybe add symbols?
-	mark and number the IO
-	white patch to write on? (numbering etc)
-
-several cleanup passes?
-	under BP and between pins
-		left and right of pill done
-	"fix" traces to final position, add ground zones
-	
-
-add artwork (OSHW, sasja)
-OSHW gear next to 6 pin debug header?
-credit at the top left? (that cap is on the bottom layer)
+add artwork (sasja)
 sprinkle some thanks elsewhere?
 	allot of space left next to the blue pill on the bottom
-		github link etc?
 		barcode?
 
 resolve DRC errors? (only ones atm are due to the debug pins making the BP inputs misbehave)
+	resolved unconnected pads, "Track near pad" errors for pads 30 and 47 are invalid
 
 add mounting holes?
+	board is 67.615 * 67.615 mm, i don't think they're needed or very possible
 add fiducials?
+	are they needed? if so, where best?
 
 via stitching on GND
 	maybe add a few easter eggs?
