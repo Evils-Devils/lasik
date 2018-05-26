@@ -30,6 +30,7 @@ add mounting holes?
 add fiducials?
 
 retract solder mask over the ground flood near the sensor input (bottom, no flood retract)
+	B.Mask?
 
 via stitching on GND
 	maybe add a few easter eggs?
