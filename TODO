@@ -1,15 +1,6 @@
-"fix" traces to final position, add ground zones
-
-add artwork (sasja)
-sprinkle some thanks elsewhere?
-	allot of space left next to the blue pill on the bottom
-		barcode?
-
 resolve DRC errors?
 	resolved unconnected pads, "Track near pad" errors for pads 30 and 47 are invalid
 
-add mounting holes?
-	board is 67.615 * 67.615 mm, i don't think they're needed or very possible
 add fiducials?
 	are they needed? if so, where best?
 
