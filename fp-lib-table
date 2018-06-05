@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name oshw-logo-kicad-copper-10mm)(type Legacy)(uri /home/evils/Downloads/oshw-logo-kicad-copper-10mm.mod)(options "")(descr ""))
-  (lib (name OSHW-logo)(type Legacy)(uri /home/evils/Downloads/OSHW_logo_KiCad_scalable/lib/OSHW-logo.mod)(options "")(descr ""))
-)
